@@ -1,0 +1,56 @@
+.icell-container {
+  width: 100%;
+}
+.svg-icell {
+  font-family: "Russo One", sans-serif;
+  /* position: absolute;  */
+  width: 800px;
+  max-width: 100%;
+  /* font-size: ; */
+  /* margin-top: 20%; */
+}
+.i-cell-text {
+  text-transform: uppercase;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 3;
+  stroke: #ffffff;
+  font-size: 200px;
+  font-family: var(--font-poppins);
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 6;
+  }
+  70% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+  }
+  80% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 12;
+  }
+  100% {
+    fill: rgb(255, 255, 255);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .svg-icell {
+    font-family: Harry;
+    /* position: absolute;  */
+    width: 900px;
+    /* margin-top: 20%; */
+  }
+  .i-cell-text {
+    font-size: 250px;
+  }
+}
