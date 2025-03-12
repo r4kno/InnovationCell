@@ -1,5 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
+import Projects2 from "./Projects2";
 import "./Makerspace.css";
 import slides from "./Data/memories.json";
 import Memories from "./Memories";
@@ -74,7 +75,7 @@ const MakerSpace = () => {
             <img src={makerspaceimg} alt="MakerSpace images" />
           </div>
         </div>
-        <div className="maker__projects teamHeading">
+        {/* <div className="maker__projects teamHeading">
           <h1>Want to know what we have done ?</h1>
           <div className="maker_project">
             {data.projects.map((project, idx) => (
@@ -88,6 +89,10 @@ const MakerSpace = () => {
               />
             ))}
           </div>
+        </div> */}
+        <div className="maker__projects teamHeading">
+          <h1 className="heading_maker">Want to know what we have done ?</h1>
+          <Projects2 />
         </div>
         <div className="memories__section teamHeading">
           <h1>Some of the Glimps of our previous events</h1>

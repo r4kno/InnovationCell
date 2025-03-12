@@ -13,7 +13,7 @@
 .maker__container h1 {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   justify-self: center;
   margin-top: 4.8rem !important;
 }
@@ -24,6 +24,7 @@
   width: 5.5rem;
   margin: 0 auto;
 }
+
 /* .maker__projects{
       margin: 0 auto;
   } */
@@ -35,7 +36,13 @@
   align-self: center;
 }
 
-.teamHeading > h1 {
+.maker_project h1 {
+  margin-bottom: 0rem;
+}
+
+
+
+.teamHeading>h1 {
   position: relative;
   z-index: 2;
   margin-top: 0rem;
@@ -45,7 +52,8 @@
   font-family: var(--font-heading);
   justify-content: center;
 }
-.teamHeading > h1::after {
+
+.teamHeading>h1::after {
   content: "";
   display: block;
   background-color: var(--green);
@@ -55,7 +63,7 @@
   margin-left: 0.5rem;
 }
 
-.teamHeading > h1::before {
+.teamHeading>h1::before {
   content: "";
   display: block;
   background-color: var(--green);
@@ -71,11 +79,13 @@
   justify-content: center;
   gap: 4rem;
 }
+
 .maker__img img {
   width: 100%;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+
 .maker__about_content {
   padding: 2rem;
   color: var(--slate);
@@ -101,6 +111,7 @@
   font-family: frozen;
   color: #fff;
 }
+
 .memories__section {
   max-width: 1200px;
   width: 100%;
@@ -108,35 +119,42 @@
   margin: 0 auto;
   padding-bottom: 2rem;
 }
+
 @media screen and (max-width: 1024px) {
   .maker__projects h1 {
     font-size: 2.5rem;
   }
+
   .maker__about {
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 768px) {
+
   .maker__container h1,
   .maker__projects h1,
   .memories__section h1 {
     font-size: 1rem;
   }
+
   .maker__project {
     gap: 2rem;
   }
 }
 
 @media screen and (max-width: 568px) {
-    .maker__container{
-      padding: 0;
-    }
-    .maker__container h1{
-       font-size: 2rem;
-       margin-top: 3rem;
-       z-index: -2;
-    }
+  .maker__container {
+    padding: 0;
+  }
+
+  .maker__container h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    z-index: -2;
+  }
 }
+
 .dark-overlay {
   /* position: absolute; */
   /* top: 0;
@@ -185,6 +203,7 @@
   left: 3.75rem;
   transform-style: preserve-3d;
 }
+
 .time-turner-animation__outer {
   -webkit-animation: spin-and-flip 1300ms linear infinite;
   animation: spin-and-flip 1300ms linear infinite;
@@ -199,15 +218,18 @@
   left: 4.3rem;
   transform-style: preserve-3d;
 }
+
 @keyframes spin-and-flip {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0) rotateY(0);
   }
+
   50% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg) rotateY(180deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg) rotateY(0);
