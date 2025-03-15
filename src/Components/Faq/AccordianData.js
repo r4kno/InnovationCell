@@ -1,57 +1,56 @@
 const data = [
   {
-    question: "What are the four main events of Avinya '24?",
-    answer: ["Avinya '24 is a dynamic and multifaceted event anchored by four integral events- the Speaker sessions, Innovation expo, Pitching event, and Panel sessions."]
+    question: "What are the four main events of Avinya '25?",
+    answer: [
+      "Avinya '25 is an interstellar journey of innovation, featuring four stellar events – Cosmic Keynote Sessions, Galactic Innovation Expo, Orbital Pitching Event, and Astronaut Panel Discussions. These events aim to propel groundbreaking ideas into new frontiers."
+    ]
   },
   {
-    question: "What is the Seed Grant Scheme, and how does it support innovation? ",
-    answer:
-      ["The ideas presented in the during the Pitching event and the Innovation expo that hold significant potential will be provided Seed Grants. The Seed Grant Scheme stands as a catalystfor the realisation of ambitious visions, acting as a pivotal force that not only extends financial support but also bestows recognition upon revolutionary ideas in the realms of agrotech and technology." ]},
-  {
-    question: "In what additional ways does the Incubation Cell provides support to the Incubated start-ups aside from funds?",
-    answer:
-     [ "Aside from the funding, some of the major ways in which the Incubation Cell plans to assist the start-ups are:", " A Charted accountant to assist with financial and accounting tasks, such as tax filings, and financial planning.",  "An advocate to provide legal advice and assistance on business operations, contracts, and intellectual property." , "An office for a professional work environment.","An experienced mentor to provide guidance and advice to help the start-up grow and succeed."]
+    question: "What is the Seed Grant Scheme, and how does it support innovation?",
+    answer: [
+      "Ideas presented at the Orbital Pitching Event and the Galactic Innovation Expo with the potential to revolutionize technology and space exploration will receive Seed Grants. This initiative acts as a launchpad, not only providing financial support but also fueling the ignition of revolutionary ideas in aerospace, agrotech, and cutting-edge technology."
+    ]
   },
   {
-    question: "How can students get involved in the Innovation Cell's initiatives?",
-    answer:
-     [ " Empowering students to actively engage in the realms of innovation and entrepreneurship, opportunities abound through participation in events such as TechTatva: The Avinya Expo as well as by applying for the Seed Grant Scheme and participating in our pitching event. These platforms serve as gateways for students to translate their ideas into impactful initiatives, bridging the gap between imagination and realization."]
+    question: "How does the Incubation Cell support incubated start-ups beyond funding?",
+    answer: [
+      "Beyond financial aid, the Incubation Cell offers invaluable support to start-ups, including:",
+      "- A Chartered Accountant to navigate financial planning and tax compliance.",
+      "- A Legal Advisor to assist with business operations, contracts, and intellectual property rights.",
+      "- A Dedicated Workspace designed to foster creativity and innovation.",
+      "- A Seasoned Mentor to guide start-ups through their cosmic journey to success."
+    ]
   },
   {
-    question: "Is Innovation Cell only for students pursuing technology-related courses?",
-    answer:
-      ["Whether you're delving into technology, agrotech, or any field of your choice, the Innovation Cell invites all passionate individuals to bring their unique visions to the forefront. It's a hub where innovation knows no constraints, and students from every academic background are encouraged to join hands in shaping a future defined by inventive solutions and entrepreneurial spirit."]
+    question: "How can students engage with the Innovation Cell's initiatives?",
+    answer: [
+      "Students can embark on their innovation voyage by participating in TechTatva’s Galactic Innovation Expo, applying for the Seed Grant Scheme, or taking part in the Orbital Pitching Event. These opportunities serve as launchpads to transform visionary ideas into groundbreaking solutions."
+    ]
+  },
+  {
+    question: "Is the Innovation Cell only for students in technology-related fields?",
+    answer: [
+      "Innovation knows no bounds! Whether you're passionate about space tech, bioengineering, sustainable agrotech, or any other domain, the Innovation Cell welcomes all explorers eager to push the boundaries of possibility."
+    ]
   },
   {
     question: "How can industry partners collaborate with the Innovation Cell?",
-    answer:
-      ["Industry partners are invited to forge meaningful collaborations through various avenues such as sponsorship, mentorship programs, and active participation in flagship events like Avinya '24. Sponsorship opportunities provide a strategic avenue for industry partners to support and invest in groundbreaking initiatives."]
+    answer: [
+      "Industry pioneers can join forces with the Innovation Cell through sponsorships, mentorship programs, and participation in flagship events like Avinya '25. These partnerships act as boosters, propelling groundbreaking ventures into orbit."
+    ]
   },
   {
-    question: "Is Avinya’24 open to the public?",
-    answer:
-      ["Avinya '24 is an inclusive event open to the public, providing a unique opportunity for individuals to immerse themselves in the world of innovation and entrepreneurship. To be part of this enriching experience, all you need to do is register on our website and follow the provided instructions to participate in any of the events or just simply join as an audience to gain perspective and inspiration."]
+    question: "Is Avinya '25 open to the public?",
+    answer: [
+      "Yes! Avinya '25 is a cosmic celebration open to all. Register on our official website and secure your ticket to explore the vast universe of innovation and entrepreneurship. Join as a participant or an audience member to witness the future unfold."
+    ]
   },
   {
     question: "How does the Innovation Cell contribute to sustainability?",
-    answer:
-      ["Innovation Cell can spearhead and support projects that focus on developing sustainable technologies, eco-friendly products, and solutions to address environmental challenges."]
+    answer: [
+      "The Innovation Cell pioneers projects focused on sustainable technologies, eco-friendly solutions, and space-age innovations that aim to protect and sustain life both on Earth and beyond."
+    ]
   }
-  // {
-  //   question: "What are they use for?",
-  //   answer:
-  //     "They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options."
-  // },
-  // {
-  //   question: "Accordion as a musical instrument",
-  //   answer:
-  //     "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres."
-  // },
-  // {
-  //   question: "Can i create an accordion component with a different framework?",
-  //   answer:
-  //     "Yes of course, it is very possible to create an accordion component with another framework."
-  // }
 ];
 
 export default data;

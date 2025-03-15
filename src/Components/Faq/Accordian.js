@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
-import data from "./AccordianData";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import MAN2 from "../../imgs/MAN2.png";
+import astropic from "../../imgs/astropic.png";
 import "./Accordian.css";
+import data from "./AccordianData";
+
 
 //  accordion item component
 const AccordionItem = ({ question, answer, isOpen, onClick }) => {
@@ -49,7 +50,7 @@ const Accordion = () => {
 
       <div className="acc-container">
         <div className="acc-img">
-          <img className="snowman" src={MAN2} alt="snowman" />
+          <img className="snowman" src={astropic} alt="snowman" />
         </div>
         <div className="container">
           {data.map((item, index) => (
