@@ -1,0 +1,125 @@
+.flip-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.flip-card {
+    min-width: 80vw;
+    /* max-width: 1200px; */
+    /* height: calc(80vw * 0.354); Maintains the 2400:850 aspect ratio (850/2400 = 0.354) */
+    height: 80vh;
+    /* max-height: fit-content; */
+    perspective: 2000px;
+}
+
+.maker__img img {
+    width: 100%;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.flip-card-front {
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.flip-card-back {
+    /* background-color: #2980b9; */
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .card-content {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.6;
+    text-align: left;
+    max-width: 80%;
+  } */
+
+.card-content h2 {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    margin-bottom: 1rem;
+}
+
+.card-content p {
+    margin-bottom: 1rem;
+}
+
+/* Media Queries for better responsiveness */
+@media (max-width: 768px) {
+    .flip-card {
+        width: 90vw;
+        height: calc(90vw * 0.354);
+    }
+
+    .card-content {
+        max-width: 95%;
+        font-size: clamp(0.875rem, 1.2vw, 1rem);
+    }
+
+    .flip-card-back {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card-container {
+        padding: 1rem;
+    }
+
+    .flip-card {
+        width: 95vw;
+        height: calc(95vw * 0.354);
+    }
+
+    .card-content {
+        font-size: 0.875rem;
+    }
+
+    .card-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .flip-card-back {
+        padding: 1rem;
+    }
+}
