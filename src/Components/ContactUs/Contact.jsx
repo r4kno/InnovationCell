@@ -1,46 +1,3 @@
-// import React from 'react'
-// import "./Contact.css"
-
-// const Contact = () => {
-//   return (
-
-//     <div className="contact-section">
-//  <div className='contact' >
-//        <div className="teamHeading"><h1>Contact Us</h1></div>
-//        <div className="contact_content">
-//           <div className="contact_content_texts">
-//               <h2 className='contact_content_texts_heading'>Get In Touch</h2>
-//               <p>Feel free to reach out to us with any questions, suggestions, or collaboration opportunities. We're here to listen and engage with you. Your feedback is valuable, and we look forward to connecting!</p>
-//           </div>
-//           <div className="contact_content_forms">
-//               <form action="" method='POST' className='input-icons'>
-//                   <div className='input_element'>
-//                       <i className="fa fa-user icon"></i>
-//                       <input type="text" name='name' id='name' placeholder='Your name'/>
-//                   </div>
-//                   <div className='input_element'>
-//                       <i className="fa fa-envelope icon"></i>
-//                       <input type="email" name='email' id='email' placeholder='Email'/>
-//                   </div>
-//                   <div className='input_element'>
-//                       <i className="fa fa-comment" aria-hidden="true"></i>
-//                       <input type="text" name='subject' id='subject' placeholder='Subject'/>
-//                   </div>
-//                   <div className='input_element'>
-//                     <textarea name="message" id="message" cols="30" rows="10" placeholder='message'></textarea>
-//                   </div>
-//                   <button type='submit' className='contact_btn input_element'>Hit us up!!</button>
-//               </form>
-//           </div>
-//        </div>
-//     </div>
-//     </div>
-
-//   )
-// }
-
-// export default Contact
-
 import React from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
@@ -69,19 +26,23 @@ const Contact = () => {
 
   return (
     <div className="contact-section">
+
       <div className="contact">
         <div className="contactHeading ">
           <h1>Contact Us</h1>
         </div>
+
         <div className="contact_content">
-          <div className="contact_content_texts">
-            <h2 className="contact_content_texts_heading">Get In Touch</h2>
-            <p>
-              Feel free to reach out to us with any questions, suggestions, or
-              collaboration opportunities. We're here to listen and engage with
-              you. Your feedback is valuable, and we look forward to connecting!
-            </p>
+          <div className="left">
+            <div class="card contact_content_texts">
+              <h2 className="">Get In Touch</h2>
+              <div>
+                Let's talk about everything!
+              </div>
+              <i class="fa fa-paper-plane"></i>
+            </div>
           </div>
+
           <div className="contact_content_forms">
             <form onSubmit={sendEmail} className="input-icons">
               <div className="input_element">
@@ -120,14 +81,35 @@ const Contact = () => {
                   placeholder="message"
                 ></textarea>
               </div>
+
               <button type="submit" className="contact_btn input_element">
-                Hit us up!!
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        fill="currentColor"
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Send</span>
               </button>
+
+
             </form>
           </div>
         </div>
       </div>
     </div>
+
+
   );
 };
 
