@@ -11,12 +11,19 @@
 .About-content {
   /* line-height: 2rem; */
   width: 26rem;
+
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
   font-family: frozen;
+
+}
+
+.About-content:hover {
+  background-color: rgb(189, 148, 227);
+  opacity: 0.6;
 }
 
 .About-item-heading {
@@ -85,10 +92,12 @@
 
 /* Applies the swinging animation to the bulb images */
 @keyframes swing {
+
   0%,
   100% {
     transform: rotate(5deg);
   }
+
   50% {
     transform: rotate(-5deg);
   }
@@ -96,11 +105,13 @@
 
 @keyframes fade {
   0% {
-    opacity: 0; /* Start with opacity 0 (fully transparent) */
+    opacity: 0;
+    /* Start with opacity 0 (fully transparent) */
   }
 
   50% {
-    opacity: 1; /* End with opacity 1 (fully visible) */
+    opacity: 1;
+    /* End with opacity 1 (fully visible) */
   }
 
   100% {
@@ -140,24 +151,30 @@
     width: 100%;
     text-align: justify;
   }
+
   .About-main-container {
     margin: 0 3rem;
   }
+
   .About-container {
     margin: 2rem 0rem;
     gap: 0;
   }
+
   .About-pic {
     scale: 0.9;
     /* transform: translateY(-2rem); */
   }
+
   .About-item {
     font-size: 1.4rem;
   }
+
   .About-item-heading {
     font-size: 2rem;
     font-family: frozen;
   }
+
   .About-item-heading::after {
     right: 3.2rem;
   }
@@ -171,12 +188,15 @@
   .About-content {
     width: 100%;
   }
+
   .About-main-container {
     margin: 0 1rem;
   }
+
   .About-item {
     font-size: 1.2rem;
   }
+
   .About-item-heading {
     font-size: 1.8rem;
   }
@@ -198,4 +218,50 @@
   .About-item-heading::before {
     left: 1.5rem;
   }
+}
+
+/* .About-content {
+  position: relative;
+  background-image: url("../../Assets/images/icellimage1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s ease-in-out;
+} */
+
+/* .About-content::after {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+} */
+
+/* .About-content:hover::after {
+  content: "The Innovation Cell at NIT Raipur is dedicated to fostering a culture of innovation, creativity, entrepreneurship, and technology among students. It aims to empower the next generation of visionaries by providing the necessary tools, resources, and opportunities to transform their ideas into reality.";
+
+
+
+  
+} */
+
+
+.highlighted-objectives {
+  /* background: rgba(255, 255, 255, 0.2); */
+  padding: 10px;
+  border-left: 5px solid rgb(185, 177, 87);
+  font-size: 1.1rem;
+  font-weight: bold;
 }
