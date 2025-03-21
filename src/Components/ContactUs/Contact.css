@@ -183,7 +183,7 @@
 }
 
 .input_element textarea {
-  border-radius: 50px;
+  border-radius: 42px;
   padding: 30px;
   color: white;
   background-color: transparent;
@@ -213,7 +213,7 @@ input {
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-radius: 50px;
+  border-radius: 42px;
   color: white;
   transition: border, background-color 0.7s;
   /* background-color: transparent; */

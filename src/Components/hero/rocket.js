@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import RocketVideo from '../../Assets/rocket.webm';
+import RocketVideo from '../../Assets/rocket(4).webm';
 
 export default function App() {
   const videoRef = useRef(null);
@@ -59,7 +59,7 @@ export default function App() {
           objectFit: "cover",
         }}
       >
-        <source src={RocketVideo} type="video/webm" />
+        <source src={RocketVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
