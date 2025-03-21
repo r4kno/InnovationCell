@@ -265,3 +265,92 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
+@keyframes colorChange {
+  0% { color: #60054d; }   
+  25% { color: #391b5c; }  
+  50% { color: #3357ff; }  
+  75% { color: #ff33a6; }  
+  100% { color: #093453; } 
+}
+
+.teamHeading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  animation: colorChange 3s infinite linear;
+}
+
+@keyframes colorCycle {
+  0% { color: #d20de4; }   
+  25% { color: #3b7f9c; }  
+  50% { color: #3357ff; }  
+  75% { color: #ff33a6; }  
+  100% { color: #8451b1; } 
+}
+
+.highlighted-objectives {
+  background: rgba(0, 0, 0, 0.4); 
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.highlighted-objectives strong {
+  transition: color 0.5s ease-in-out;
+}
+
+.highlighted-objectives:hover {
+  background: rgba(0, 0, 0, 0.6);
+  animation: colorCycle 3s infinite linear;
+}
+
+.highlighted-objectives:hover strong {
+  animation: colorCycle 3s infinite linear;
+}
+@keyframes backgroundZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); /* Slight zoom-in */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.About-content {
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.About-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit; /* Ensures the background is inherited */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: backgroundZoom 4s infinite ease-in-out;
+  z-index: 0;
+  filter: brightness(0.5); /* Keeps it smooth */
+}
+
+.About-item-main {
+  position: relative;
+  z-index: 1; /* Keeps text above the background */
+  font-family: "Poppins", sans-serif;
+}
+
+
+

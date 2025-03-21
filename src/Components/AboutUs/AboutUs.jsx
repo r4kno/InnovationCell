@@ -57,7 +57,7 @@ const AboutUs = () => {
                 🔹 <strong>Promote Innovation-Driven Entrepreneurship:</strong> Encouraging a culture where innovation leads to startups.<br /><br />
                 🔹 <strong>Provide Support Services:</strong> Offering resources for aspiring entrepreneurs.<br /><br />
                 🔹 <strong>Mentorship:</strong> Supporting students in developing their ideas.<br /><br />
-                🔹 <strong>Knowledge-Based Enterprise Development:</strong> Helping students turn innovations into employment.<br /><br />
+             
               </div>
             )
           }
