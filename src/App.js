@@ -48,7 +48,7 @@ const App = () => {
       onClick={handleClick}
       style={{ height: "100vh", position: "relative" }}
     >
-      <Cursor />
+      {/* <Cursor /> */}
       {showGif && (
         <div
           style={{

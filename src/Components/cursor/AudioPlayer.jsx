@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Howl, Howler } from "howler";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp, faVolumeMute } from "@fortawesome/free-solid-svg-icons";
-import second from "./harry_potter_audio.mp3";
+import second from "./space_sound.m4a";
 // import fingger from "./point_finger.gif";
 
 const sound = new Howl({

@@ -10,11 +10,13 @@ import Timeline from "./Components/Timeline/Timeline";
 import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
+import IntroVideo from './Components/IntroVideo/Introvideo';
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
+  const [showIntro, setShowIntro] = useState(true);
   const location = useLocation();
 
   useEffect(() => {
@@ -37,42 +39,36 @@ function App() {
     }
   };
 
-  // const scrollToContactUs = () => {
-  //   if (contactUsRef.current) {
-  //     contactUsRef.current.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
+  const handleIntroComplete = () => {
+    setShowIntro(false);
+  };
+
   return (
     <>
-      <>
-        <SnowfallComponent />
-        <Snitch />
-        <div className="App">
-          <div className={scrolled ? "dark-overlay" : ""}></div>
-          <LandingPage />
-          <h1 className="teamsHeading .cursor_hover">Hello</h1>
-          <a id="" className="scroll-down" href="#aboutusnav">
-            <div className="mouse">
-              <span></span>
-            </div>
-            <div className="arrow">
-              <span></span>
-              <span></span>
-            </div>
-          </a>
-          <div id="aboutusnav"></div>
-          <AboutUs />
+      {showIntro && <IntroVideo onComplete={handleIntroComplete} />}
+      <div className="App">
+        <div className={scrolled ? "dark-overlay" : ""}></div>
+        <LandingPage />
+        <a id="" className="scroll-down" href="#aboutusnav">
+          <div className="mouse">
+            <span></span>
+          </div>
+          <div className="arrow">
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div id="aboutusnav"></div>
+        <AboutUs />
 
-          <div id="eventsnav"></div>
-          <Timeline />
-          <div id="faqnav"></div>
-          <Accordian />
-          <div id="contactusnav"></div>
-          <Contact />
-          <Footer />
-        </div>
-      </>
-      {/* )} */}
+        <div id="eventsnav"></div>
+        <Timeline />
+        <div id="faqnav"></div>
+        <Accordian />
+        <div id="contactusnav"></div>
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

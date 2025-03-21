@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Landing.css";
+import Rocket from "../hero/rocket"
 
 import ICell from "../../svgs/ICell";
 import {
@@ -26,7 +27,14 @@ const LandingPage = () => {
 
   return (
     <>
-      <Navbar />
+      {/* Position the Rocket behind other content */}
+      <Rocket />
+      
+      {/* Ensure Navbar has higher z-index */}
+      <div style={{ position: "relative", zIndex: 11 }}>
+        <Navbar />
+      </div>
+      
       <div
         style={{
           position: "fixed",
@@ -34,18 +42,21 @@ const LandingPage = () => {
           right: "5px",
           display: "flex",
           alignItems: "center",
-          zIndex: "9",
+          zIndex: 10, 
           display: `${hidden ? "none" : ""}`,
         }}
       >
         <img src={finger} alt="" height={200} />
       </div>
-      <div className="main-landing">
+
+      {/* Main content with higher z-index */}
+      <div className="main-landing" style={{ position: "relative", zIndex: 10 }}>
         <div className="landing">
           <div className="welcome">
             WELCOME TO <br />
           </div>
           <div>
+            
             <ICell />
             <div className="social-link">
               <a
