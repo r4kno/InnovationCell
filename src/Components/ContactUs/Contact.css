@@ -6,6 +6,75 @@
   margin-top: 8rem;
 }
 
+.contact_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.left {
+  width: 22%;
+  height: 400px;
+  background: rgba(255,
+      255,
+      255,
+      0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+/* card  */
+.card {
+  width: 95%;
+  height: 96%;
+  background-color: #07101F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* border: ; */
+}
+
+
+
+
+.contact_content_texts h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact_content_texts div {
+  font-size: 20px;
+  color: #4486a4;
+  margin-bottom: 15px;
+}
+
+.fa-paper-plane {
+  font-size: 30px;
+  color: #007bff;
+  /* Blue color */
+  margin-top: 10px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.fa-paper-plane:hover {
+  transform: scale(1.2);
+  color: #0056b3;
+}
+
+
+
 .contact {
   width: 80%;
   height: fit-content;
@@ -14,7 +83,8 @@
   color: var(--slate);
   z-index: 3;
 }
-.contactHeading > h1 {
+
+.contactHeading>h1 {
   position: relative;
   z-index: 2;
   margin-top: 0rem;
@@ -27,7 +97,8 @@
   font-size: 4rem;
   margin-top: 0rem;
 }
-.contactHeading > h1::after {
+
+.contactHeading>h1::after {
   content: "";
   display: block;
   background-color: var(--harry);
@@ -37,7 +108,7 @@
   margin-left: 0.5rem;
 }
 
-.contactHeading > h1::before {
+.contactHeading>h1::before {
   content: "";
   display: block;
   background-color: var(--harry);
@@ -47,64 +118,47 @@
   margin-right: 0.5rem;
 }
 
-.contact_content {
-  display: flex;
 
-  align-items: center;
-  padding-bottom: 5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.contact_content_texts {
-  /* padding: 2rem 1rem; */
-  width: 50%;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  text-align: center;
-  max-width: 300px;
-  height: 100%;
-
-  min-width: 250px;
-  backdrop-filter: blur(10px); /* Apply a blur effect */
-  border-radius: 10px; /* Rounded corners for the glass container */
-  padding: 2rem; /* Adjust padding to your liking */
-  background-color: rgb(17, 34, 64, 0.57);
-}
-
-.contact_content_texts {
-  font-size: 1rem;
-  font-weight: 700;
-}
-.contact_content_texts_heading {
-  margin-bottom: 1rem;
-  font-family: frozen;
-}
 
 .contact_content_forms {
-  width: 100%;
-  max-width: 700px;
+  width: 40%;
 }
+
+
+.contact_image {
+  width: 100%;
+  max-width: 500px;
+  /* Adjust as needed */
+  margin: 20px auto;
+  /* Centers the div */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
 
 /* form css  */
 .input-icons {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-icons i {
-  padding: 1rem 2rem;
-  padding-right: 1rem;
-  color: var(--green);
-  background: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Adjust the opacity for the glass effect */
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom: 1px solid var(--green);
-  background-color: rgb(17, 34, 64, 0.57);
+  font-size: 24px;
+  color: #afd6ff;
 }
 
 .input_element {
@@ -112,38 +166,63 @@
   margin: 1rem 0;
   padding: 0.5rem;
   display: flex;
+  gap: 5px;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px); /* Apply a blur to create glassmorphism effect */
-  background: rgba(
-    255,
-    255,
-    255,
-    0.2
-  ); /* Adjust the opacity for the glass effect */
-  border: 2px solid rgba(255, 255, 255, 0.2); /* Slightly thicker border */
-  border-radius: 10px; /* Add border radius for rounded corners */
+  backdrop-filter: blur(10px);
+  /* Apply a blur to create glassmorphism effect */
+  background: rgba(255,
+      255,
+      255,
+      0.2);
+  /* Adjust the opacity for the glass effect */
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* Slightly thicker border */
+  border-radius: 50px;
+  /* Add border radius for rounded corners */
 }
+
+.input_element textarea {
+  border-radius: 50px;
+  padding: 30px;
+  color: white;
+  background-color: transparent;
+  background-color: #07101F;
+}
+
+.fa {
+  border-radius: 50%;
+  width: 50px;
+  /* Set a fixed width */
+  height: 50px;
+  /* Set a fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* Ensures the content stays within the rounded area */
+}
+
 
 input {
   width: 100%;
   padding: 1rem 2rem;
   font-weight: 500;
+  font-size: medium;
   outline: none;
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-
-  color: var(--slate);
+  border-radius: 50px;
+  color: white;
   transition: border, background-color 0.7s;
-  border-bottom: 1px solid var(--green);
-  background-color: rgb(17, 34, 64, 0.57);
+  /* background-color: transparent; */
+  background-color: #07101F;
 }
 
-input:focus {
-  background-color: var(--light-navy);
-  color: var(--light-slate);
-}
+/* input:focus {
+  background-color: #07101F;
+} */
 
 textarea {
   width: 100%;
@@ -151,21 +230,23 @@ textarea {
   border: none;
   background-color: rgb(17, 34, 64, 0.57);
   color: var(--light-navy);
-  border-radius: 10px; /* Add border radius for rounded corners */
+  border-radius: 10px;
+  /* Add border radius for rounded corners */
   padding: 0.5rem 1rem;
   font-family: var(--font-poppins);
   border-bottom: 1px solid var(--green);
 }
 
-textarea:focus {
+/* textarea:focus {
   background-color: rgb(17, 34, 64, 0.8);
   color: var(--light-slate);
-}
+} */
 
 .contact_btn {
   padding: 1;
   margin-left: 0.5rem;
-  width: 30%;
+  margin: 0, auto;
+  width: 50%;
   font-size: 1rem;
 
   color: var(--green);
@@ -178,9 +259,10 @@ textarea:focus {
   -moz-transition: color, background-color 1s;
   -ms-transition: color, background-color 1s;
   -o-transition: color, background-color 1s;
+
 }
 
-.contact_btn > button {
+.contact_btn>button {
   outline: none;
   border: none;
   padding: 1rem;
@@ -191,82 +273,66 @@ textarea:focus {
   color: var(--harry-dark);
 }
 
-@media screen and (max-width: 600px) {
-  .contactHeading > h1 {
-    font-size: 26px;
+
+/* From Uiverse.io by adamgiebl */
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
   }
 }
 
-/* 
-@media screen and (max-width: 940px) {
-    .contact_content{
-        flex-direction: column;
-    }
-    .contact{
-        height: fit-content;
-    }
-    .contact_content_texts{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .input_element{
-        margin-top: 2rem;
-        padding: 0;
-    }
-    
-    .contact_btn{
-        padding: 1rem;
-    }
-} */
 
-/* @media screen and (max-width: 600px) {
-    .contact_btn{
-        width: 40%;
-        padding: 0.5rem;
-    }
-}
-@media screen and (max-width: 335px) {
-    .contact_btn{
-        margin: auto auto;
-        width: 80%;
-        padding: 0.5rem;
-    }
-}
-@media screen and (max-width: 280px) {
-    .contact_heading::after{
-        display: none;
-    }
-} */
 
-/* media query for padding  */
-
-/* @media screen and (max-width: 1500px) {
-    .contact{
-        padding: 5rem 15rem;
-    }
+@media screen and (max-width: 600px) {
+  .contactHeading>h1 {
+    font-size: 26px;
+  }
 }
-@media screen and (max-width: 1148px) {
-    .contact{
-        padding: 5rem 10rem;
-    }
-}
-@media screen and (max-width: 900px) {
-
-    .contact{
-        padding: 5rem 5rem;
-        height: fit-content
-    }
-    
-    
-} */
-
-/* @media screen and (max-width: 525px) {
-   
-    .contact{
-        padding: 5rem 1rem;
-        
-    }
-    
-}
- */

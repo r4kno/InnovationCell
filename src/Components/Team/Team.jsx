@@ -26,13 +26,14 @@ const Team = () => {
         <div className="Teams">
           {teamRecord.teamData.OC.map((member, index) => (
             <TeamCard
-              key={index}
-              profileImg={member.picLink}
-              name={member.name}
-              instaLink={member.insta}
-              linkedinLink={member.linkedin}
-              domain={member.Domain}
-              branch={member.Branch}
+            key={index}
+            profileImg={encodeURI(member.picture)}   
+            name={member.Name}                    
+            instaLink={member.InstagramID}         
+            linkedinLink={member.LinkedINID}
+            domain={member.Domain}
+            branch={member.Branch}
+
             />
           ))}
         </div>
