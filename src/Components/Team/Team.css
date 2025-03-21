@@ -1,3 +1,4 @@
+
 /* Team css  */
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap");
 #team {
@@ -10,6 +11,7 @@
 .Teams {
   display: flex;
   justify-content: center;
+  margin-inline : 2rem;
   /* align-items: center;  */
   flex-wrap: wrap;
 }
@@ -52,93 +54,115 @@
 
 /* card css  */
 
-.teamCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  min-height: 70vh;
-  /* background: #161623; */
-  flex-direction: row;
-  font-family: var(--font-mono);
+.container .card {
+  width: 280px;
+  height: 390px;
+  background: black;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
-.container .card {
-  position: relative;
-  width: 280px;
-  height: 400px;
-  margin: 30px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+
+.container .card:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+}
+
+.container .card .blob {
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-color: #4bb8ff;
+  visibility: visible;
+  transition: all 0.3s;
+}
+
+.container .card:hover .blob {
+  height: 0;
 }
 
 .container .card .content {
   text-align: center;
-  transform: translateY(0px);
-  opacity: 1;
-  transition: 0.5s;
-}
-
-.container .card .content h2 {
-  position: absolute;
-  top: -30px;
-  right: 30px;
-  font-size: 8em;
-  color: rgba(255, 255, 255, 0.05);
-  pointer-events: none;
-  z-index: 3;
+  padding: 20px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container .card .content h3 {
-  font-size: 1.8em;
-  color: var(--slate);
-  z-index: 1;
   margin-bottom: 1rem;
+  color: var(--slate);
+  font-size: 1.8em;
+  width: 100%;
 }
 .container .card .content h3 > img {
-  width: 10rem;
-  height: 10rem;
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: 100%;
-  position: relative;
-  z-index: 1;
-  transform: scale(1);
-  transition: 0.5s;
+  transition: all 0.5s;
+  border: 5px solid transparent; /* Creates space for border */
+
+
+
+  background: linear-gradient(45deg, red, blue, yellow, green);
+
+
+  
+  background-clip: padding-box;
+  padding: 5px; /* Ensures gradient is visible */
+}
+
+
+.container .card:hover .content h3 > img {
+  width: 75%;
+  height: 300px;  /* 3/4 of card height */
+  border-radius: 10px;
+  margin: 0 auto;
+  object-fit: cover;
 }
 
 .container .card .content p {
   font-size: 1rem;
-  /*color: white;*/
-  color: rgb(165, 226, 237);
-  font-weight: 1000;
-  margin-bottom: 1rem;
+  color: beige;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: all 0.75s;
 }
 
-.alimImg > img {
-  height: 5rem;
-  object-fit: cover;
-  object-position: top right;
+/* Hide only the text on hover, not the image */
+.container .card:hover .content h3 span,
+.container .card:hover .content p {
+  opacity: 0;
 }
 
 .socialMediaHandles {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  right: 35px;
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.container .card:hover .socialMediaHandles {
+  opacity: 1;
 }
 
 .socialMediaHandles img {
   width: 2rem;
   height: 2rem;
 }
-
 /* NameCard css */
 
 .nameCard {
