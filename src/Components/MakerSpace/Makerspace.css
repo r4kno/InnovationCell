@@ -74,10 +74,12 @@
 }
 
 .maker__about {
-  justify-self: center;
+  /* justify-self: center; */
   display: flex;
   justify-content: center;
   gap: 4rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .maker__img img {
@@ -87,7 +89,7 @@
 }
 
 .maker__about_content {
-  padding: 2rem;
+  padding: 10rem;
   color: var(--slate);
   background-color: rgba(6, 16, 32, 0.57);
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.6);
@@ -100,7 +102,7 @@
 }
 
 .maker__about_content h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: frozen;
   color: #d19f3d;
 }
@@ -174,50 +176,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.time-turner-animation {
-  background-image: url(./time-terner-outer.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  position: absolute;
-  top: 5rem;
-  left: 0;
-  width: 13rem;
-  height: 17rem;
-  overflow: hidden;
-  -webkit-transform: rotate(-8deg);
-  transform: rotate(-8deg);
-}
-
-.time-turner-animation__inner {
-  -webkit-animation: spin-and-flip 1300ms linear infinite reverse;
-  animation: spin-and-flip 1300ms linear infinite reverse;
-  background-image: url(./time-turner-ring.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  width: 5.2rem;
-  height: 5.3rem;
-  position: absolute;
-  bottom: 8.65rem;
-  left: 3.75rem;
-  transform-style: preserve-3d;
-}
-
-.time-turner-animation__outer {
-  -webkit-animation: spin-and-flip 1300ms linear infinite;
-  animation: spin-and-flip 1300ms linear infinite;
-  background-image: url(./time-terner-disc.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  width: 4.2rem;
-  height: 4.5rem;
-  position: absolute;
-  bottom: 9.1rem;
-  left: 4.3rem;
-  transform-style: preserve-3d;
-}
 
 @keyframes spin-and-flip {
   0% {
