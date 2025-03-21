@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 0.8px;
-  cursor: none;
 }
 
 /* a:hover {
@@ -51,10 +50,9 @@ input:hover {
 }
 
 :root {
-  --harry: #d19f3d;
+  --harry: #00a0bc  ;
   --pink: #f57dff;
   --blue: #57cbff;
-  --green-tint: rgba(100, 255, 218, 0.1);
   --dark-navy: #020c1b;
   --navy: #0a192f;
   --navy: #000001;
@@ -97,7 +95,8 @@ input:hover {
 
 body {
   /* background-color: #181B3E; */
-  background-image: url("https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705521010/innovation_cell/oljsnh1qd1jc9set0k76.webp");
+  /* background-image: url("https://res.cloudinary.com/dbdf3pjsp/image/upload/v1705521010/innovation_cell/oljsnh1qd1jc9set0k76.webp"); */
+  background-image: url("./Assets/images/starry-sky-1946936.jpg");
   background-position: 8% 0;
   background-size: cover; /* Adjust this as needed */
   background-attachment: fixed;

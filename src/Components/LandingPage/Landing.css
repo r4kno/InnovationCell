@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&family=Zen+Dots&display=swap');
+
+:root {
+  --cyberspace: #0b0b1a;
+  --midnight-tech: #16213e;
+  --deep-circuit: #1b2845;
+  --electric-cyan: #00e1bf;
+  --digital-blue: #267df5;
+  --circuit-orange: #ff6a3d;
+  --interface-white: #f0f4fc;
+  --data-purple: #8a2be2;
+}
+
 .landing {
   display: flex;
   flex-direction: column;
@@ -5,25 +18,26 @@
   align-items: flex-start;
   text-align: left;
   height: 100vh;
-  font-family: poppins, "sans-serif";
+  font-family: "Zen Dots", sans-serif;
   /* margin: 60px; */
 }
 
+/* Update welcome text color */
 .welcome {
   font-size: 40px;
-  font-weight: 700;
-  /* color: var(--green); */
-  color: #d19f3d;
+  font-weight: 500;
+  color: var(--electric-cyan);
   align-items: flex-start;
   margin-left: 80px;
-  font-family: var(--font-poppins);
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
 }
 
 .moon-bg {
   position: fixed;
   height: 50rem;
   top: -2rem;
-  left: 50%;
+  left: 50%;  
   opacity: 0;
   z-index: -10;
 }
@@ -35,18 +49,142 @@
   margin-left: 80px;
 }
 
-.social-link a :hover {
-  scale: 1.05;
-  color: var(--harry);
-  transition: all 0.5s;
-  filter: drop-shadow(0 0 4px #d19f3d);
+/* Enhanced space tech hover animation for social links */
+.social-link a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 8px;
+  z-index: 1;
+  overflow: hidden;
+  scale: 1.5
 }
 
-/* @media (max-width: 1205) {
-  .moon-bg {
-    left: 30%;
+/* Update outer glow ring */
+.social-link a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(5, 255, 217, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+  box-shadow: 0 0 15px rgba(5, 255, 217, 0.3), 
+              0 0 30px rgba(5, 255, 217, 0.1);
+}
+
+/* Update bottom line effect */
+.social-link a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, 
+                transparent 0%, 
+                rgba(5, 255, 217, 0.2) 25%, 
+                rgba(5, 255, 217, 1) 50%, 
+                rgba(5, 255, 217, 0.2) 75%, 
+                transparent 100%);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* Orbital particle effect */
+.social-link a span {
+  position: relative;
+  z-index: 2;
+}
+
+/* Update orbital particle effects */
+.social-link a span::before,
+.social-link a span::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(5, 255, 217, 0.7);
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.social-link a span::before {
+  top: -10px;
+  left: 50%;
+}
+
+.social-link a span::after {
+  bottom: -10px;
+  right: 50%;
+}
+
+/* Hover states */
+/* Update hover state for social links */
+.social-link a:hover {
+  color: var(--electric-cyan);
+  transform: translateY(-3px) scale(1.15);
+  text-shadow: 0 0 10px rgba(5, 255, 217, 0.7);
+}
+
+.social-link a:hover::before {
+  transform: translate(-50%, -50%) scale(3);
+  animation: pulseRing 2s infinite;
+}
+
+.social-link a:hover::after {
+  transform: scaleX(1);
+}
+
+.social-link a:hover span::before,
+.social-link a:hover span::after {
+  opacity: 1;
+  animation: orbit 2s infinite linear;
+}
+
+.social-link a:hover span::after {
+  animation-delay: 0.5s;
+  animation-direction: reverse;
+}
+
+/* Animations */
+/* Update animation keyframes */
+@keyframes pulseRing {
+  0% {
+    box-shadow: 0 0 0 0 rgba(5, 255, 217, 0.4),
+                0 0 0 10px rgba(5, 255, 217, 0.1);
+    opacity: 0.8;
   }
-} */
+  50% {
+    box-shadow: 0 0 0 10px rgba(5, 255, 217, 0.2),
+                0 0 0 20px rgba(5, 255, 217, 0.05);
+    opacity: 0.5;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(5, 255, 217, 0.4),
+                0 0 0 10px rgba(5, 255, 217, 0.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(8px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(8px) rotate(-360deg);
+  }
+}
 
 @media (max-width: 758px) {
   .moon-bg {
