@@ -2,12 +2,20 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Introvideo.css';
 import Video from "../../Assets/IntroVideo.mp4"
 import { FaVolumeMute, FaVolumeUp } from 'react-icons/fa';
+import Title from "./ICell.jsx"
+import logo from "../../Assets/images/i_cell_logo.png";
+
 
 const IntroVideo = ({ onComplete }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(true);
   const [isMuted, setIsMuted] = useState(true);
   const [showOverlay, setShowOverlay] = useState(false);
+  const [overlayState, setOverlayState] = useState({
+    firstText: false,
+    secondText: false, 
+    thirdText: false
+  });
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -24,9 +32,21 @@ const IntroVideo = ({ onComplete }) => {
     };
 
     const handleTimeUpdate = () => {
-      // Show overlay text when video reaches 23 seconds
-      if (video.currentTime >= 23 && !showOverlay) {
-        setShowOverlay(true);
+      // First text (appears at 23 seconds)
+      if (video.currentTime >= 23 && !overlayState.firstText) {
+        setOverlayState(prev => ({ ...prev, firstText: true }));
+      }
+      
+      if (video.currentTime >= 2 && video.currentTime < 8 && !overlayState.secondText) {
+        setOverlayState(prev => ({ ...prev, secondText: true }));
+      } else if (video.currentTime >= 8.5 && overlayState.secondText) {
+        setOverlayState(prev => ({ ...prev, secondText: false }));
+      }
+      
+      if (video.currentTime >= 10.8 && video.currentTime < 15 && !overlayState.thirdText) {
+        setOverlayState(prev => ({ ...prev, thirdText: true }));
+      } else if (video.currentTime >= 15 && overlayState.thirdText) {
+        setOverlayState(prev => ({ ...prev, thirdText: false }));
       }
     };
 
@@ -39,7 +59,7 @@ const IntroVideo = ({ onComplete }) => {
       video.removeEventListener('ended', handleEnded);
       video.removeEventListener('timeupdate', handleTimeUpdate);
     };
-  }, [onComplete, showOverlay]);
+  }, [onComplete, overlayState]);
 
   const handleSkip = () => {
     setIsPlaying(false);
@@ -56,6 +76,11 @@ const IntroVideo = ({ onComplete }) => {
 
   return (
     <div className="intro-container">
+      <div className="logo-i">
+        <a href="/">
+          <img src={logo} alt="I-Cell Logo" />
+        </a>
+      </div>
       {isLoading && (
         <div className="loader">
           <div className="spinner"></div>
@@ -73,10 +98,24 @@ const IntroVideo = ({ onComplete }) => {
       </video>
 
       {/* Text overlay that appears at 23 seconds */}
-      {showOverlay && (
+      {overlayState.firstText && (
         <div className="exit-text">
-          <div className="tagline">Beyond Orbits</div>
+          <div className="tagline">
+            BEYOND ORBITS
+          </div>
           <div className="byline">by Innovation Cell</div>
+        </div>
+      )}
+      {overlayState.secondText && (
+        <div className="intro-text">
+          <div className="tagline-intro">INNOVATION CELL</div>
+          <div className="byline-intro">Presents</div>
+        </div>
+      )}
+      {overlayState.thirdText && (
+        <div className="intro-text">
+          <div className="tagline-mid">MOST AWAITED FEST</div>
+          <div className="byline-mid">Ever</div>
         </div>
       )}
 

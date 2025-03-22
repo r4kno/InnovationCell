@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   transition: scroll-behavior 10s ease-in-out;
   letter-spacing: 0.8px;
+  -webkit-text-size-adjust: 100%;
 }
 
 /* a:hover {
@@ -132,7 +133,8 @@ body {
 }
 
 .App {
-  width: fit-content;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .overlay {
@@ -303,5 +305,13 @@ body {
 
   body {
     background-position: 8% 2rem;
+  }
+
+  input, button, select, textarea {
+    font-size: 16px; /* Prevents zoom on input focus */
+  }
+  
+  body {
+    font-size: 16px;
   }
 }

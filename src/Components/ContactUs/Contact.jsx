@@ -82,9 +82,9 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="contact_btn input_element">
-                <div class="svg-wrapper-1">
-                  <div class="svg-wrapper">
+              <button type="submit" className="contact_btn input_element send-button">
+                <div className="svg-wrapper-1">
+                  <div className="svg-wrapper">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
