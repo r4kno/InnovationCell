@@ -1,7 +1,13 @@
 .eventsheading {
   margin-top: 2rem !important;
 }
-
+@keyframes colorChange {
+  0% { color: #60054d; }   
+  25% { color: #391b5c; }  
+  50% { color: #3357ff; }  
+  75% { color: #ff33a6; }  
+  100% { color: #093453; } 
+}
 .eventsheading > h1 {
   position: relative;
   z-index: 2;
@@ -16,6 +22,7 @@
   font-size: 4rem;
   margin-top: 4rem;
 }
+
 .eventsheading > h1::after {
   content: "";
   display: block;
@@ -57,6 +64,13 @@
 .event-card {
   display: flex;
   flex-direction: column;
+}
+@keyframes colorChange {
+  0% { color: #60054d; }   
+  25% { color: #391b5c; }  
+  50% { color: #3357ff; }  
+  75% { color: #ff33a6; }  
+  100% { color: #093453; } 
 }
 /* .event-pic {
   display: flex;

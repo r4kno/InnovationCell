@@ -43,7 +43,7 @@
   content: "";
   display: block;
   /* background-color: var(--green); */
-  background-color: #d19f3d;
+  background-color: #c09848;
   width: 3rem;
   height: 2px;
   border-radius: 1rem;
@@ -87,7 +87,7 @@
 .owl {
   position: absolute;
   top: -4.8rem;
-  left: 0.5rem;
+  
 }
 
 /* Applies the swinging animation to the bulb images */
@@ -261,7 +261,7 @@
 .highlighted-objectives {
   /* background: rgba(255, 255, 255, 0.2); */
   padding: 10px;
-  border-left: 5px solid rgb(185, 177, 87);
+  border-left: 5px solid rgb(222, 210, 80);
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -278,15 +278,22 @@
   font-weight: bold;
   text-align: center;
   animation: colorChange 3s infinite linear;
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-@keyframes colorCycle {
+.teamHeading h1:hover {
+  transform: translateY(-10px) scale(1.1);
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* @keyframes colorCycle {
   0% { color: #d20de4; }   
   25% { color: #3b7f9c; }  
   50% { color: #3357ff; }  
   75% { color: #ff33a6; }  
   100% { color: #8451b1; } 
-}
+} */
 
 .highlighted-objectives {
   background: rgba(0, 0, 0, 0.4); 
@@ -326,7 +333,7 @@
   position: relative;
   padding: 20px;
   border-radius: 10px;
-  color: white;
+  color: rgb(204, 185, 185);
   overflow: hidden;
 }
 
