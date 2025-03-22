@@ -274,8 +274,13 @@ textarea {
 }
 
 
-/* From Uiverse.io by adamgiebl */
-button {
+/* Remove or comment out the existing global button styles */
+/* button {
+  ...
+} */
+
+/* Now use a unique class for the send button: */
+.send-button {
   font-family: inherit;
   font-size: 20px;
   background: royalblue;
@@ -291,31 +296,31 @@ button {
   cursor: pointer;
 }
 
-button span {
+.send-button span {
   display: block;
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
 }
 
-button svg {
+.send-button svg {
   display: block;
   transform-origin: center center;
   transition: transform 0.3s ease-in-out;
 }
 
-button:hover .svg-wrapper {
+.send-button:hover .svg-wrapper {
   animation: fly-1 0.6s ease-in-out infinite alternate;
 }
 
-button:hover svg {
+.send-button:hover svg {
   transform: translateX(1.2em) rotate(45deg) scale(1.1);
 }
 
-button:hover span {
+.send-button:hover span {
   transform: translateX(5em);
 }
 
-button:active {
+.send-button:active {
   transform: scale(0.95);
 }
 

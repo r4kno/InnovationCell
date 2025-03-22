@@ -197,8 +197,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 20px;
+    min-height: 100vh;
+    height: auto;
+    padding: 20px;
+    margin: 0; /* Replace margin: 20px with margin: 0 */
+    width: 100%;
   }
   .welcome {
     font-size: 28px;
