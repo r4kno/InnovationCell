@@ -8,32 +8,27 @@ import Footer from "../Footer/Footer";
 import Navbar2 from "../Navbar/Navbar2";
 import Contact from "../ContactUs/Contact";
 import teamRecord from "./members.json";
-import web from "../cursor/web_3.png";
 
 const Team = () => {
   return (
-    <div className="" style={{ width: "fit-content" }}>
-      <img className="web-team" src={web} alt="" />
+    <div className="team-container" style={{ width: "fit-content" }}>
       <Navbar2 />
       <div className="dark-overlay"></div>
+
       <div className="teams-page">
-        {/* <div id="team" className="teamHeading">
-          <h1>Team Innovation cell</h1>
-        </div> */}
         <div id="team" className="teamHeading">
           <h1>Overall coordinators</h1>
         </div>
         <div className="Teams">
           {teamRecord.teamData.OC.map((member, index) => (
             <TeamCard
-            key={index}
-            profileImg={encodeURI(member.picture)}   
-            name={member.Name}                    
-            instaLink={member.InstagramID}         
-            linkedinLink={member.LinkedINID}
-            domain={member.Domain}
-            branch={member.Branch}
-
+              key={index}
+              profileImg={encodeURI(member.picture)}
+              name={member.Name}
+              instaLink={member.InstagramID}
+              linkedinLink={member.LinkedINID}
+              domain={member.Domain}
+              branch={member.Branch}
             />
           ))}
         </div>
@@ -85,6 +80,7 @@ const Team = () => {
           ))}
         </div>
       </div>
+
       <div id="contactusnav"></div>
       <Contact />
       <Footer />
