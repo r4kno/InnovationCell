@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import RocketVideo from '../../Assets/rocket(4).webm';
+import './rocket.css';
 
 export default function App() {
   const videoRef = useRef(null);
@@ -37,29 +38,16 @@ export default function App() {
   }, [startTime, endTime]);
   
   return (
-    <div className="rocket-container" style={{
-      position: "absolute",
-      top: "10%",
-      left: "50%",
-      transform: "translate(-20%, 0)",
-      width: "100%",
-      height: "100%",
-      zIndex: 1,
-      overflow: "hidden",
-    }}>
+    <div className="rocket-container">
       <video
         ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-        }}
+        className="rocket-video"
       >
-        <source src={RocketVideo} type="video/mp4" />
+        <source src={RocketVideo} type="video/webm" />
         Your browser does not support the video tag.
       </video>
     </div>
