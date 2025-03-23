@@ -1,11 +1,10 @@
-* {
-  font-family: frozen;
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 
 .footer {
   width: 100%;
   color: white;
-  background-color: #18253f5c;
+  background-color: #0a0f1c;;
   opacity: 50;
   backdrop-filter: blur(10px);
   margin-top: 5rem;
@@ -16,6 +15,22 @@
   /* font-family: poppins, "sans-serif"; */
   /* font-family: frozen; */
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #6e7eff, transparent);
+  animation: gradient-flow 3s linear infinite;
+}
+
+@keyframes gradient-flow {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 .footer > .upper-section {
@@ -37,7 +52,7 @@
 .footer .upper-section h1::after {
   content: "";
   /* background-color: #ffd8b4; */
-  background-color: #ffe7b6;
+  background-color: #1288c8;
   position: absolute;
   width: 50%;
   height: 4px;
@@ -53,7 +68,7 @@
 }
 
 .container > h1 {
-  color: #d19f3d;
+  color: #4486a4;
 }
 
 /* logo */
@@ -67,18 +82,19 @@
 
 .footer-logo > img {
   height: 100px;
+  animation: float 3s ease-in-out infinite;
   margin-bottom: 6px;
 }
 
 .footer-logo > h2 {
   font-size: 2rem;
   position: relative;
-  color: #d19f3d;
+  color: #4486a4;
 }
 
 .footer-logo > h2::after {
   content: "";
-  background-color: #ffd8b4;
+  background-color: #1288c8;
   position: absolute;
   width: 100%;
   height: 2px;
@@ -98,6 +114,15 @@
 
 .about > a {
   font-size: 1.1rem;
+  transition: all 200ms ease-in-out;
+}
+
+
+
+.about > a:hover {
+  scale: 1.11;
+  color: #4486a4;
+  filter: drop-shadow(0 0 4px #4486a4);
 }
 
 /* contacts */
@@ -116,6 +141,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: all 500ms ease-in-out;
+}
+.contacts > a:hover {
+  scale: 1.11;
+  color: #4486a4;
+  filter: drop-shadow(0 0 4px #4486a4);
 }
 
 /* .contacts > a:hover {
@@ -148,8 +179,8 @@
 
 .socials > a:hover {
   scale: 2.05;
-  color: var(--harry);
-  filter: drop-shadow(0 0 4px #d1a03de1);
+  color: #4486a4;
+  filter: drop-shadow(0 0 4px #4486a4);
 }
 
 /* LOWER SECTION */
@@ -159,8 +190,31 @@
 }
 
 .footer > .lower-section > h1 > span {
-  color: rgb(255, 174, 81);
-  text-decoration: underline;
+  color:#4486a4;
+  /* //text-decoration: underline; */
+}
+/* heart section animation */
+
+.heart {
+  color: #ff4d4d;
+  
+  animation: heart-glow 2s infinite ease-in-out;
+  font-size: 1.2em;
+}
+
+@keyframes heart-glow {
+  0% {
+    text-shadow: 0 0 2px #ff4d4d, 0 0 4px #ff4d4d;
+    opacity: 0.8;
+  }
+  50% {
+    text-shadow: 0 0 5px #ff4d4d, 0 0 8px #ff4d4d;
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 0 0 2px #ff4d4d, 0 0 4px #ff4d4d;
+    opacity: 0.8;
+  }
 }
 
 /* media queries */
