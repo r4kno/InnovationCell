@@ -41,7 +41,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  /* border: ; */
+  z-index: 7;
 }
 
 
@@ -274,12 +274,7 @@ textarea {
 }
 
 
-/* Remove or comment out the existing global button styles */
-/* button {
-  ...
-} */
 
-/* Now use a unique class for the send button: */
 .send-button {
   font-family: inherit;
   font-size: 20px;
@@ -340,4 +335,117 @@ textarea {
   .contactHeading>h1 {
     font-size: 26px;
   }
+}
+
+/* mobile responsive  */
+@media (max-width: 768px) {
+
+  .contact-section {
+    padding: 20px;
+  }
+
+  .contact {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    z-index: 1;
+  }
+
+  .floating-image {
+    margin-left: 130px;
+    margin-top: 30px;
+  }
+
+  .contact_content_forms {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact_content_forms form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input_element {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .input_element .icon {
+    position: relative;
+    left: 0;
+    margin-right: 10px;
+  }
+
+  .contactHeading h1,
+  .contact_content_texts h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 10px;
+  }
+
+  .contact {
+    padding: 5px;
+  }
+
+  .input_element {
+    margin-bottom: 10px;
+  }
+
+  .contact_btn {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+
+
+.floating-image {
+  width: 300px;
+  position: absolute;
+  top: -230px;
+  left: 50%;
+  transform: translateX(-10%);
+  z-index: 5;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.left {
+  position: relative;
+}
+
+.card {
+  position: relative;
+  padding-top: 80px;
 }

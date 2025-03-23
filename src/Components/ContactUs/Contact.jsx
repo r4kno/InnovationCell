@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+import space from '../assets/Space.png'
 
 emailjs.init("nqcmzWT3nhxf6gZEw");
 const Contact = () => {
@@ -34,6 +35,9 @@ const Contact = () => {
 
         <div className="contact_content">
           <div className="left">
+
+            <img src={space} alt="Astronaut" className="floating-image" />
+
             <div class="card contact_content_texts">
               <h2 className="">Get In Touch</h2>
               <div>
