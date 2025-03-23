@@ -1,4 +1,3 @@
-
 /* Team css  */
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&display=swap");
 #team {
@@ -11,16 +10,14 @@
 .Teams {
   display: flex;
   justify-content: center;
-  margin-inline : 2rem;
-  /* align-items: center;  */
+  margin-inline: 2rem;
   flex-wrap: wrap;
 }
 
 .teamHeading > h1 {
   position: relative;
   z-index: 2;
-  margin-top: 0rem;
-  /* color: var(--green); */
+  margin-top: 6rem;
   color: var(--harry);
   display: flex;
   align-items: center;
@@ -28,12 +25,11 @@
   justify-content: center;
   text-align: center;
   font-size: 4rem;
-  margin-top: 6rem;
 }
+
 .teamHeading > h1::after {
   content: "";
   display: block;
-  /* background-color: var(--green); */
   background-color: var(--harry);
   width: 10rem;
   height: 3px;
@@ -44,7 +40,6 @@
 .teamHeading > h1::before {
   content: "";
   display: block;
-  /* background-color: var(--green); */
   background-color: #d19f3d;
   width: 10rem;
   height: 3px;
@@ -185,7 +180,6 @@
   opacity: 0;
 }
 
-/* NameCard css */
 /* NameCard css - Space Theme */
 .nameCard {
   margin: 1.5rem 2rem;
@@ -223,7 +217,6 @@
   font-weight: 800;
   overflow: hidden;
   position: relative;
-  
 }
 
 .nameCard > div::before {
@@ -238,6 +231,7 @@
   opacity: 0.3;
   z-index: 0;
 }
+
 /* Fix for nameCard socialMediaHandles positioning */
 .nameCard {
   position: relative; /* Ensure relative positioning for absolute children */
@@ -268,20 +262,17 @@
   visibility: visible;
 }
 
-/* No need to change the hover translation for the name since we're using absolute positioning for icons */
 /* Smoothly fade out the paragraph on hover */
 .nameCard:hover p {
   opacity: 0;
   transition: opacity 0.6s ease;
 }
 
-
 .team_executives {
   margin: 2rem;
   padding: 2rem;
   color: #e0d4ff; /* Softer, fainter violet text color */
   min-width: 25rem;
-
   letter-spacing: 1px;
   line-height: 2rem;
 
@@ -364,59 +355,186 @@
   filter: drop-shadow(0 0 5px rgba(160, 100, 255, 0.6));
 }
 
+/* Web team fixed element */
+.web-team {
+  position: fixed;
+  top: 4rem;
+  right: -2rem;
+  opacity: 0.6;
+  max-width: 100%;
+  z-index: -1; /* Ensure it stays behind other content */
+}
 
+/* ENHANCED MEDIA QUERIES FOR BETTER RESPONSIVENESS */
 
-
-
-@media only screen and (max-width: 930px) {
+/* Large mobile devices and small tablets */
+@media only screen and (max-width: 768px) {
+  .teamHeading > h1 {
+    font-size: 3rem;
+  }
+  
+  .teamHeading > h1::before,
+  .teamHeading > h1::after {
+    width: 5rem;
+  }
+  
+  .team_executives {
+    min-width: 18rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  .team_executives > h1 {
+    font-size: 2rem;
+  }
+  
+  .nameCard {
+    width: 16rem;
+    margin: 1rem;
+  }
+  
   .web-team {
-    margin-top: -20px;
+    opacity: 0.4; /* Reduce opacity further on smaller screens */
   }
 }
 
+/* Medium mobile devices */
 @media only screen and (max-width: 600px) {
-  .teamHeading > h1::before {
-    /* display: none !important; */
-  }
   .teamHeading > h1 {
-    text-align: center;
-    font-size: 3.6rem;
+    font-size: 2.8rem;
   }
+  
+  .teamHeading > h1::before,
   .teamHeading > h1::after {
-    /* display: none !important; */
+    width: 3rem;
   }
-
+  
   .Teams {
-    padding: 1rem;
+    margin-inline: 1rem;
+    padding: 0.5rem;
   }
+  
   .team_executives {
-    margin: 1rem 0;
-    padding: 1rem;
-    min-width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
+    min-width: 0;
+    width: 90%;
   }
+  
+  .team_executives > h1 {
+    font-size: 1.8rem;
+  }
+  
+  .team_executives > div {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  
   .container {
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  
+  .nameCard {
+    width: 90%;
+    max-width: 16rem;
+    margin: 1rem 0.5rem;
+  }
+  
   .web-team {
-    width: 350px;
+    right: -1rem;
+    top: 3rem;
+    opacity: 0.3;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* Small mobile devices */
+@media only screen and (max-width: 480px) {
+  .teamHeading > h1 {
+    font-size: 2.2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .teamHeading > h1::before,
+  .teamHeading > h1::after {
+    width: 8rem;
+    margin: 0.3rem 0;
+  }
+  
+  .Teams {
+    margin-inline: 0.5rem;
+  }
+  
+  .container .card {
+    width: 260px;
+    height: 370px;
+  }
+  
+  .container .card .content h3 {
+    font-size: 1.5em;
+  }
+  
+  .container .card .content h3 > img {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .container .card:hover .content h3 > img {
+    width: 70%;
+    height: 280px;
+  }
+  
+  .team_executives {
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .nameCard {
+    height: 6rem;
+  }
+  
+  .nameCard > div {
+    height: 4rem;
+    min-width: 10rem;
+  }
+  
+  .web-team {
+    display: none; /* Hide on very small screens to avoid layout issues */
+  }
+}
+
+/* Extra small mobile devices */
+@media only screen and (max-width: 320px) {
   .container .card {
     width: 240px;
+    height: 350px;
   }
-}
-
-.web-team {
-  position: fixed;
-  top: 4rem;
-  /* width: 100vw; */
-  right: -2rem;
-  opacity: 0.6;
+  
+  .container .card .content h3 > img {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .container .card:hover .content h3 > img {
+    width: 75%;
+    height: 240px;
+  }
+  
+  .teamHeading > h1 {
+    font-size: 1.8rem;
+  }
+  
+  .team_executives > h1 {
+    font-size: 1.5rem;
+  }
+  
+  .team_executives > div {
+    font-size: 0.9rem;
+  }
 }
 
 
