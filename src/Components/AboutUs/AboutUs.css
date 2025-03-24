@@ -265,19 +265,11 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
-@keyframes colorChange {
-  0% { color: #60054d; }   
-  25% { color: #391b5c; }  
-  50% { color: #3357ff; }  
-  75% { color: #ff33a6; }  
-  100% { color: #093453; } 
-}
 
 .teamHeading h1 {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  animation: colorChange 3s infinite linear;
   transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 

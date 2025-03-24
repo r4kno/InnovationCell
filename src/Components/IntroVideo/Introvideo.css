@@ -176,7 +176,19 @@
     font-family: "Bebas Neue", sans-serif;
     transform: translateY(20px); /* Initial position slightly below */
   }
-  
+  @media (max-width: 600px) {
+    .intro-text {
+      left: 50%;
+    }
+    .tagline {
+      font-size: 3rem;
+    }
+    .exit-text {
+      left: 50%;
+      width: 90%;
+    }
+  }
+
   /* New animation for the upward lifting effect */
   @keyframes liftUpFade {
     0% {

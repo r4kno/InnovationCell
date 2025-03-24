@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Introvideo.css';
-import Video from "../../Assets/IntroVideo.mp4"
+import Video from "../../Assets/IntroVideo2.mp4"
 import { FaVolumeMute, FaVolumeUp } from 'react-icons/fa';
 import Title from "./ICell.jsx"
 import logo from "../../Assets/images/i_cell_logo.png";
@@ -43,7 +43,7 @@ const IntroVideo = ({ onComplete }) => {
         setOverlayState(prev => ({ ...prev, secondText: false }));
       }
       
-      if (video.currentTime >= 10.8 && video.currentTime < 15 && !overlayState.thirdText) {
+      if (video.currentTime >= 10.7 && video.currentTime < 15 && !overlayState.thirdText) {
         setOverlayState(prev => ({ ...prev, thirdText: true }));
       } else if (video.currentTime >= 15 && overlayState.thirdText) {
         setOverlayState(prev => ({ ...prev, thirdText: false }));
@@ -124,7 +124,7 @@ const IntroVideo = ({ onComplete }) => {
           {isMuted ? <FaVolumeMute size={20} /> : <FaVolumeUp size={20} />}
         </button>
         <button className="skip-button" onClick={handleSkip}>
-          Skip Intro
+          Skip
         </button>
       </div>
     </div>
