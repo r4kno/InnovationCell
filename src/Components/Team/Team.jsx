@@ -27,7 +27,6 @@ const Team = () => {
               name={member.Name}
               instaLink={member.InstagramID}
               linkedinLink={member.LinkedINID}
-              domain={member.Domain}
               branch={member.Branch}
             />
           ))}

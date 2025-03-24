@@ -2,10 +2,19 @@
     "teamData": {
         "OC": [
             {
+                "Username": "",
+                "Name": "Anish Patel",
+                "Branch": "Electrical Engineering",
+                "Domain": null,
+                "InstagramID": "https://www.instagram.com/__anishhhh____?igsh=dWNqcG1uZHB4ejZx",
+                "LinkedINID": null,
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742817928/WhatsApp_Image_2025-03-24_at_2.12.57_PM_dq8qtg.webp"
+            },
+            {
                 "Username": "amans9995@gmail.com",
                 "Name": "Aman Kumar Singh",
                 "Branch": "Electronics and Communication Engineering",
-                "Domain": "Documentation",
+                "Domain":null,
                 "InstagramID": "i_.amansingh",
                 "LinkedINID": "https://www.linkedin.com/in/aman-singh-x",
                 "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_pad,b_gen_fill,ar_3:4/v1741916785/myus0l6tgjdmdrey4maz_frsunn.webp"
@@ -14,7 +23,7 @@
                 "Username": "ashishtyagi274474@gmail.com",
                 "Name": "Ashish Tyagi",
                 "Branch": "Electrical Engineering",
-                "Domain": "PR",
+                "Domain": null,
                 "InstagramID": "https://www.instagram.com/ashishtyagi_05/",
                 "LinkedINID": "https://www.linkedin.com/in/ashish-tyagi-556b16222/",
                 "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/iic6hizarvhmrklcjh5b_a8zziw.webp"
@@ -23,7 +32,7 @@
                 "Username": "sampadspradhan@gmail.com",
                 "Name": "Sampad Shubhadarshi Pradhan",
                 "Branch": "Mining Engineering",
-                "Domain": "EM",
+                "Domain": null,
                 "InstagramID": "@_sampadspradhan_",
                 "LinkedINID": "https://www.linkedin.com/in/sampadspradhan-sam",
                 "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1741916794/irdte24obmswngf2icy4_gdm3l6.webp"
