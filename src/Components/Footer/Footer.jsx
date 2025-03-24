@@ -96,7 +96,8 @@
 //     </>
 //   );
 // }
-
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   BsInstagram,
   BsLinkedin,
@@ -129,6 +130,11 @@ const footerLinks = [
 ];
 
 export default function Footer() {
+  const navigate = useNavigate(); 
+  const goToTechTeam = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/tech_team");
+  };
   return (
     <>
       <footer className="footer">
@@ -187,9 +193,9 @@ export default function Footer() {
         <hr style={{ width: "auto" }} />
 
         <div className="lower-section">
-          <h1>
-            Made with <span className="heart">❤️</span> by <span>Tech Team</span>
-          </h1>
+        <button onClick={goToTechTeam} className="tech-team-btn">
+          Made with ❣️ by <span>Tech Team</span>
+        </button>        
         </div>
       </footer>
     </>

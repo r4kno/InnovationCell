@@ -48,6 +48,7 @@
 }
 
 /* card css  */
+/* card css - revised positioning */
 .container .card {
   width: 280px;
   height: 390px;
@@ -58,6 +59,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 2rem;
+  margin-inline: 1rem;
   box-shadow: 0 0 25px rgba(43, 0, 87, 0.3), 0 0 5px rgba(128, 0, 255, 0.1);
   border: 1px solid rgba(101, 57, 172, 0.15);
 }
@@ -85,7 +87,7 @@
 .container .card .content {
   text-align: center;
   padding: 22px;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,7 +109,9 @@
   z-index: 0;
 }
 
+/* Image positioning - moved to top */
 .container .card .content h3 {
+  margin-top: 0;
   margin-bottom: 1rem;
   color: #c7d2fe;
   font-size: 1.8em;
@@ -130,10 +134,10 @@
 }
 
 .container .card:hover .content h3 > img {
-  width: 75%;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(170, 75, 255, 0.6);
 }
@@ -152,8 +156,8 @@
   gap: 1.5rem;
   position: absolute;
   bottom: 15px;
-  left: 35px;
-  right: 35px;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: all 0.75s;
 }
@@ -175,10 +179,10 @@
 }
 
 /* Hide only the text on hover, not the image */
-.container .card:hover .content h3 span,
 .container .card:hover .content p {
   opacity: 0;
 }
+
 
 /* NameCard css - Space Theme */
 .nameCard {
