@@ -1,630 +1,712 @@
 {
-   "teamData": {
-       "OC": [
-           {
-               "Username": "amans9995@gmail.com",
-               "Name": "Aman Kumar Singh",
-               "Branch": "Electronics and Communication Engineering",
-               "Domain": "Documentation",
-               "InstagramID": "i_.amansingh",
-               "LinkedINID": "https://www.linkedin.com/in/aman-singh-x",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_pad,b_gen_fill,ar_3:4/v1741916785/myus0l6tgjdmdrey4maz_frsunn.webp"
-           },
-           {
-               "Username": "ashishtyagi274474@gmail.com",
-               "Name": "Ashish Tyagi",
-               "Branch": "Electrical Engineering",
-               "Domain": "PR",
-               "InstagramID": "https://www.instagram.com/ashishtyagi_05/",
-               "LinkedINID": "https://www.linkedin.com/in/ashish-tyagi-556b16222/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/iic6hizarvhmrklcjh5b_a8zziw.webp"
-           },
-           {
-               "Username": "sampadspradhan@gmail.com",
-               "Name": "Sampad Shubhadarshi Pradhan",
-               "Branch": "Mining Engineering",
-               "Domain": "EM",
-               "InstagramID": "@_sampadspradhan_",
-               "LinkedINID": "https://www.linkedin.com/in/sampadspradhan-sam",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1741916794/irdte24obmswngf2icy4_gdm3l6.webp"
-           }
-       ],
-       "fourthYear": [
-           {
-               "Username": "aashutoshpatelownstudy@gmail.com",
-               "Name": "Aashutosh Patel",
-               "Branch": "Bio-Medical Engineering",
-               "Domain": "Makerspace",
-               "InstagramID": "Na",
-               "LinkedINID": "https://www.linkedin.com/in/aashutosh-patel/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/gvebs8q0gbuua4vhiodm_h2bcff.webp"
-           },
-           {
-               "Username": "saiarunimamenda@gmail.com",
-               "Name": "Arunima Menda",
-               "Branch": "Metallurgical and Materials Engineering",
-               "Domain": "Documentation",
-               "InstagramID": "arunima_m17",
-               "LinkedINID": "www.linkedin.com/in/arunimamenda",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/picture_-_Arunima_1_ljoef6.webp"
-           },
-           {
-               "Username": "azharansari.surajpur@gmail.com",
-               "Name": "Azhar Ansari",
-               "Branch": "Electronics and Communication Engineering",
-               "Domain": "Makerspace",
-               "InstagramID": "https://www.instagram.com/roser_01?igsh=MXV3NGFwaGJqODJxbw==",
-               "LinkedINID": "https://www.linkedin.com/in/md-azhar-ansari-20b585232/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/c5gug5rzklcqjd9qzw7u_rdqj5w.webp"
-           },
-           {
-               "Username": "darshankarn999@gmail.com",
-               "Name": "Darshan Kumar ",
-               "Branch": "Electrical Engineering",
-               "Domain": "EM",
-               "InstagramID": "https://www.instagram.com/karn_darsh/?hl=en",
-               "LinkedINID": "https://www.linkedin.com/in/darshan-karn/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1200,h_2013/v1741885721/y8buejpfjkgn1skua0bj_nfsda5.webp"
-           },
-           {
-               "Username": "gouravbanik2018@gmail.com",
-               "Name": "Gourav Banik ",
-               "Branch": "Electronics and Communication Engineering",
-               "Domain": "EM",
-               "InstagramID": "https://www.instagram.com/gd_is_here_?igsh=MTVvMHF2Z2YxN2RsdQ==",
-               "LinkedINID": "https://www.linkedin.com/in/gourav-banik-a92225201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885722/IMG_20250107_193159_20250107_213457_-_Gourav_Banik_1_kvn3q0.webp"
-           },
-           {
-               "Username": "manishasingh791791@gmail.com",
-               "Name": "Manisha Singh",
-               "Branch": "Information Technology",
-               "Domain": "Technical",
-               "InstagramID": "https://www.instagram.com/manisha_79122",
-               "LinkedINID": "www.linkedin.com/in/manisha-singh-15a63a232",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/mvjmldxmkf2ximmikw4j_zilozr.webp"
-           },
-           {
-               "Username": "mousamdas2003@gmail.com",
-               "Name": "Mousam Das",
-               "Branch": "Computer Science & Engineering",
-               "Domain": "EM",
-               "InstagramID": "justt.mousam",
-               "LinkedINID": "https://www.linkedin.com/in/mousamdas07/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1500,h_2000/v1741885723/klewhhvrlgnqc9pr56sh_qn05rz.webp"
-           },
-           {
-               "Username": "piyush.pb.bisen@gmail.com",
-               "Name": "Piyush Bisen",
-               "Branch": "Metallurgical and Materials Engineering",
-               "Domain": "PR",
-               "InstagramID": "https://www.instagram.com/im.pb/",
-               "LinkedINID": "https://www.linkedin.com/in/piyush-bisen-pb/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/de8azgpizihcfrs6hflv_otimgk.webp"
-           },
-           {
-               "Username": "piyushrakesh2002@gmail.com",
-               "Name": "Piyush kumar rakesh ",
-               "Branch": "Electrical Engineering",
-               "Domain": "Design",
-               "InstagramID": "piyush_rakesh_16",
-               "LinkedINID": "https://www.linkedin.com/in/piyush-kumar-rakesh-68a776232/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/rcunm0p0dbyyoicem1ae_bvyxci.webp"
-           },
-           {
-               "Username": "itssaurabhofficial@gmail.com",
-               "Name": "Saurabh sachdeva",
-               "Branch": "Electrical Engineering",
-               "Domain": "PR",
-               "InstagramID": "https://www.instagram.com/_saurabh.sachdeva?igsh=MW1zZDJwc2l1cmJ4aA%3D%3D&utm_source=qr",
-               "LinkedINID": "http://linkedin.com/in/saurabh-sachdeva-26695b230",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1747,h_2615,x_738,y_754/v1741885724/tqxjggrndnsokyh5ncbq_npilz1.webp"
-           },
-           {
-               "Username": "sushmitakurella@gmail.com",
-               "Name": "Sushmita Kurella ",
-               "Branch": "Mining Engineering",
-               "Domain": "Documentation",
-               "InstagramID": "sushmita_kurella",
-               "LinkedINID": "https://www.linkedin.com/in/kurellasushmita/",
-               "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/t_mousam das/v1741916808/htg9r9sk1x1iz3oodbsz_u9hc6v.webp"
-           }
-       ],
-       "coreCoordinators": [
-           {
-               "name": "Aarti Tandan ",
-               "domain": "EM",
-               "linkedin": "Yes",
-               "insta": "__aarti.09__"
-           },
-           {
-               "name": "ABHISHEK KUMAR PANDEY",
-               "domain": "Documentation",
-               "linkedin": "https://www.linkedin.com/in/abhishek-kumar-pandey-0a9313258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "_.epsilon_019_._"
-           },
-           {
-               "name": "Aishwarya Sinha",
-               "domain": "PR",
-               "linkedin": "https://www.linkedin.com/in/aishwarya-sinha-78a989251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/aishwaryysinh._18?igsh=MXM4ZHl1ajdwem1veA=="
-           },
-           {
-               "name": "Akshay Mairal ",
-               "domain": "Documentation",
-               "linkedin": "https://www.linkedin.com/in/akshay-mairal-20b001257",
-               "insta": "https://www.instagram.com/akshaymairal998?igsh=anB0NWhxYmF2aXAz"
-           },
-           {
-               "name": "Ankush Dhobi ",
-               "domain": "Social Media",
-               "linkedin": "https://www.linkedin.com/in/ankush-dhobi-8b352024b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/dhobiankush7?igsh=bm80MXdpYWRsaXBl"
-           },
-           {
-               "name": "Anshika Mehra ",
-               "domain": "PR",
-               "linkedin": "https://www.linkedin.com/in/anshika-mehra-778a66279/",
-               "insta": "unstable__proton"
-           },
-           {
-               "name": "Devesh Kashyap",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/devesh-kashyap-4a78532ab",
-               "insta": "https://www.instagram.com/dev_0320?igsh=MTh1eGp5MzRkNG50eQ=="
-           },
-           {
-               "name": "Himanshu ",
-               "domain": "Spons",
-               "linkedin": null,
-               "insta": "himanshu00yadav"
-           },
-           {
-               "name": "HINESH SINGH THAKUR",
-               "domain": "EM",
-               "linkedin": "linkedin.com/in/hinesh-singh-thakur-48a1a5258",
-               "insta": "_hinesh_0368"
-           },
-           {
-               "name": "Jagriti Kumari",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/jagriti-kumari-1a4a51293",
-               "insta": "https://www.instagram.com/jagritikumari123?igsh=MWp3d2xrd3FuYXltbA=="
-           },
-           {
-               "name": "Jagriti Singh Thakur ",
-               "domain": "PR",
-               "linkedin": "https://www.linkedin.com/in/jagriti-singh-thakur-8366b3252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": null
-           },
-           {
-               "name": "kanhaiya kumar",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/kanhaiya-kumar-28bb2b21b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/kanhaiyakumar1725?igsh=MW9qYXA4OWdmMXhjcA=="
-           },
-           {
-               "name": "Lekhram Patel ",
-               "domain": "EM",
-               "linkedin": null,
-               "insta": null
-           },
-           {
-               "name": "Mohammad Raza Memon",
-               "domain": "Documentation",
-               "linkedin": "https://www.linkedin.com/in/mohammad-raza-memon-raza/",
-               "insta": "alright.raza"
-           },
-           {
-               "name": "Nikita Kumari",
-               "domain": "Documentation",
-               "linkedin": null,
-               "insta": "simplybeing_nik"
-           },
-           {
-               "name": "Onkar Gupta",
-               "domain": "Technical",
-               "linkedin": "https://www.linkedin.com/in/onkar-gupta-6398ba264",
-               "insta": "https://www.instagram.com/__rakno__"
-           },
-           {
-               "name": "Payal Sahu ",
-               "domain": "EM",
-               "linkedin": "www.linkedin.com/in/payalsahu1",
-               "insta": null
-           },
-           {
-               "name": "Priyanshu Choudhary ",
-               "domain": "Technical",
-               "linkedin": "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit",
-               "insta": "https://www.instagram.com/priyanshu_911official/"
-           },
-           {
-               "name": "Rahul Yadav",
-               "domain": "Social Media",
-               "linkedin": "https://www.linkedin.com/in/rahul-yadav-nitrr",
-               "insta": "therahul2004"
-           },
-           {
-               "name": "Riddhiraj Bidyabhusan",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/riddhiraj-bidyabhusan-740256262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/riddhirajbidyabhusan?igsh=MW1zN2JyeXY4NDlwZQ=="
-           },
-           {
-               "name": "Shikhar Gupta",
-               "domain": "EM",
-               "linkedin": "shikhar-gupta-nitrr",
-               "insta": "guptashikhar600"
-           },
-           {
-               "name": "Shreyansh Patel",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/shreyansh-patel-43153a259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/shreyansh00719?igsh=enk3bW9sYzBpZXQw"
-           },
-           {
-               "name": "Sushant Jha",
-               "domain": "Documentation",
-               "linkedin": "https://www.linkedin.com/in/sushant-kumar-jha-bb84b228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/skj_018?utm_source=qr&igsh=MTY4ZXpkNnZrdnl5Yg=="
-           },
-           {
-               "name": "Swarnava Dey",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/swarnavadey814",
-               "insta": null
-           },
-           {
-               "name": "Swatantra Mohanty ",
-               "domain": "PR",
-               "linkedin": "https://www.linkedin.com/in/swatantra-mohanty-240498297",
-               "insta": "https://www.instagram.com/swattyz2or?igsh=MXBicmE4b2M3NTRpYw=="
-           },
-           {
-               "name": "Tamrapanni Biswal",
-               "domain": "Spons",
-               "linkedin": "www.linkedin.com/in/tamrapanni-biswal-a3075a26b",
-               "insta": "tina_b2107"
-           },
-           {
-               "name": "Tanush Patel ",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/tanush-patel-277260251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/tanush_ar_p?igsh=Z2RxcnZnNnV3azc5"
-           },
-           {
-               "name": "Tanushi",
-               "domain": "Spons",
-               "linkedin": "https://www.linkedin.com/in/tanushi-dubey-8653b4213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-               "insta": "\u2014\u2014"
-           },
-           {
-               "name": "Toy Bhadra",
-               "domain": "Video Editing",
-               "linkedin": null,
-               "insta": null
-           },
-           {
-               "name": "Vaibhav Singh",
-               "domain": "EM",
-               "linkedin": "https://www.linkedin.com/in/vaibhav-singh-86b0b1290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-               "insta": "https://www.instagram.com/vaibbhavsingh2028?igsh=MTJ2c3ZnOWR0bWExZg=="
-           },
-           {
-               "name": "Valendra Dangi",
-               "domain": "Documentation",
-               "linkedin": "https://www.linkedin.com/in/valendra-dangi/",
-               "insta": "https://www.instagram.com/valendra_dangi/"
-           },
-           {
-               "name": "Vidhi Lahare",
-               "domain": "Social Media",
-               "linkedin": null,
-               "insta": "vidhividx"
-           }
-       ],
-       "executives": [
-           {
-               "EVENT MANAGEMENT": [
-                   {
-                       "name": "AARYANSH DWIVEDI",
-                       "year": "2"
-                   },
-                   {
-                       "name": "ANUSHKA MISHRA",
-                       "year": "2"
-                   },
-                   {
-                       "name": "HETARTH SACHDEVA",
-                       "year": "2"
-                   },
-                   {
-                       "name": "MANISH AGRAWAL",
-                       "year": "2"
-                   },
-                   {
-                       "name": "MOHD SAQLAIN KHAN",
-                       "year": "2"
-                   },
-                   {
-                       "name": "NEHA SONKAR",
-                       "year": "2"
-                   },
-                   {
-                       "name": "PREMANSHU SAHU",
-                       "year": "2"
-                   },
-                   {
-                       "name": "PRIYANKA SAHU",
-                       "year": "2"
-                   },
-                   {
-                       "name": "PRIYANKA UPADHYAY",
-                       "year": "2"
-                   },
-                   {
-                       "name": "RISHABH BHATI",
-                       "year": "2"
-                   },
-                   {
-                       "name": "SANJIDA KHATUN",
-                       "year": "2"
-                   },
-                   {
-                       "name": "VISHNU DIXIT",
-                       "year": "2"
-                   }
-               ]
-           },
-           {
-               "PR": [
-                   {
-                       "name": "ANSHIKA PANDEY ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "DEEP MOGAL ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "KASHISH AGRAWAL",
-                       "year": "2"
-                   },
-                   {
-                       "name": "MAHIR MITTAL",
-                       "year": "2"
-                   },
-                   {
-                       "name": "MOKSHADA BHATT ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "PRIYA OJHA",
-                       "year": "2"
-                   },
-                   {
-                       "name": "SHIVANG BARNWAL ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "SIDDHARTH PHATAK",
-                       "year": "2"
-                   },
-                   {
-                       "name": "SUBHANSHU PADHI ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "VANSHIKA JAISWAL",
-                       "year": "2"
-                   },
-                   {
-                       "name": "YASHASVI DEWANGAN",
-                       "year": "2"
-                   }
-               ]
-           },
-           {
-               "Makerspace": [
-                   {
-                       "name": "Aman Kumar Sharma",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Aniruddha Tiwari",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Anmol Kumar Agrawal",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Anshul Prasad",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Arthav",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Bonthu Meghana",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Dani Huto",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Durga Prasad",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Harshita Kurre",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Kunwar Kaushlendra Pratap Singh",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Kunwar Singh",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Neeraj Verma",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Nidhi Sahu",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Nitesh Kumar",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Prashant Shukla",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Ravi Verma",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Rishabh Ranjan Jha",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Rishi Prajapati",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Satwik",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Shikhar Kashyap",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Shivam Garg",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Sundram Kumar Rai",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Yash Khare",
-                       "year": "2"
-                   }
-               ]
-           },
-           {
-               "video editing": [
-                   {
-                       "name": "ANURAG GADHWAL ",
-                       "year": "2"
-                   },
-                   {
-                       "name": "ARPITA HIRA",
-                       "year": "2"
-                   },
-                   {
-                       "name": "ARYAN GHOSH",
-                       "year": "2"
-                   },
-                   {
-                       "name": "NISHANT DIWATE ",
-                       "year": "2"
-                   }
-               ]
-           },
-           {
-               "Documentation": [
-                   {
-                       "name": "Akshata Bakre",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Aryan Singh",
-                       "year": "2"
-                   },
-                   {
-                       "name": "JAYESH SHARMA",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Nipun Modi",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Prakarsh",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Rahul Wagh",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Satyam Tiwari",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Shashank Singh Rajput",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Shreya Sarangi",
-                       "year": "2"
-                   }
-               ]
-           },
-           {
-               "Design": [
-                   {
-                       "name": "Aaisha Bhura",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Aastha Kashyap",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Manash Chandak",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Manash Chandak",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Mansi Behera",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Nooka Rahul",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Pranjal Kumar Pandey",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Rimsha Ali",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Soha Ghodeswar",
-                       "year": "2"
-                   },
-                   {
-                       "name": "Tanish Biswas",
-                       "year": "2"
-                   }
-               ]
-           }
-       ]
-   }
-}
+    "teamData": {
+        "OC": [
+            {
+                "Username": "amans9995@gmail.com",
+                "Name": "Aman Kumar Singh",
+                "Branch": "Electronics and Communication Engineering",
+                "Domain": "Documentation",
+                "InstagramID": "i_.amansingh",
+                "LinkedINID": "https://www.linkedin.com/in/aman-singh-x",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_pad,b_gen_fill,ar_3:4/v1741916785/myus0l6tgjdmdrey4maz_frsunn.webp"
+            },
+            {
+                "Username": "ashishtyagi274474@gmail.com",
+                "Name": "Ashish Tyagi",
+                "Branch": "Electrical Engineering",
+                "Domain": "PR",
+                "InstagramID": "https://www.instagram.com/ashishtyagi_05/",
+                "LinkedINID": "https://www.linkedin.com/in/ashish-tyagi-556b16222/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/iic6hizarvhmrklcjh5b_a8zziw.webp"
+            },
+            {
+                "Username": "sampadspradhan@gmail.com",
+                "Name": "Sampad Shubhadarshi Pradhan",
+                "Branch": "Mining Engineering",
+                "Domain": "EM",
+                "InstagramID": "@_sampadspradhan_",
+                "LinkedINID": "https://www.linkedin.com/in/sampadspradhan-sam",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1741916794/irdte24obmswngf2icy4_gdm3l6.webp"
+            }
+        ],
+        "techteam" : [
+         {
+             "Name": "Onkar Gupta",
+             "Year": "3rd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/__rakno__",
+             "LinkedINID": "https://www.linkedin.com/in/onkar-gupta-6398ba264",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_3000,h_3000,ar_1:1,g_auto/v1742792335/sh35xsjzwujzgivzbsre_s6ldzh.webp"
+         },
+         {
+             "Name": "Godson S. Philip",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/godsonsphilip",
+             "LinkedINID": "https://www.linkedin.com/in/godsonsphilip",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/xofpyfunplqolgsfnoic_lhrnyi.webp"
+         },
+         {
+             "Name": "Prince Gupta",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/princegupta.in",
+             "LinkedINID": "https://www.linkedin.com/in/princegupta-in",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/bvztk67blemghbygmhsl_dodi6u.webp"
+         },
+         {
+             "Name": "Utkarsh Tiwari",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/utkarsh__tiwari1/",
+             "LinkedINID": "https://www.linkedin.com/in/utkarsh-tiwari1/",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/ae9wzs1heiyv8jr3y0vg_mcidpr.webp"
+         },
+         {
+             "Name": "Pashmeen Kaur",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "-",
+             "LinkedINID": "-",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/xe4nq2fyjodhtrsxv3si_wasvpr.webp"
+         },
+         {
+             "Name": "Leora Saharia",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/none",
+             "LinkedINID": "https://www.linkedin.com/in/leora-saharia",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/j8bgstuwvzfewg6uybru_qr609l.webp"
+         },
+         {
+             "Name": "Gajendra Bhoi",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/gajendra1_0",
+             "LinkedINID": "https://www.linkedin.com/in/gajendra-bhoi-356aa8269",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_pad,b_gen_fill,w_3000,h_3000,ar_1:1/v1742792332/crv4djkde6c60byojjbl_ejkaxj.webp"
+         },
+         {
+             "Name": "Tejas Surya",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "-",
+             "LinkedINID": "https://www.linkedin.com/in/tejas-surya-174377295/",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792332/x5leinfzy6dor93c3ezy_gdeyud.webp"
+         },
+         {
+             "Name": "Rishabh Chandrakar",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/rishabh.chandrakar_/",
+             "LinkedINID": "https://www.linkedin.com/in/rishabh-chandrakar-09a13b289/",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/hlhtbszm4f4dmhx0zpu1_gl4ybc.webp"
+         },
+         {
+             "Name": "Arjun Bhadauriya",
+             "Year": "2nd",
+             "Domain": "Development",
+             "InstagramID": "https://www.instagram.com/arjunbhadauriya50",
+             "LinkedINID": "https://www.linkedin.com/in/arjunthakur-nit-5337462a8",
+             "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792334/xenvjbcsbezgvv165zuc_vysp9f.webp"
+         }        
+        ],
+        "fourthYear": [
+            {
+                "Username": "aashutoshpatelownstudy@gmail.com",
+                "Name": "Aashutosh Patel",
+                "Branch": "Bio-Medical Engineering",
+                "Domain": "Makerspace",
+                "InstagramID": "Na",
+                "LinkedINID": "https://www.linkedin.com/in/aashutosh-patel/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/gvebs8q0gbuua4vhiodm_h2bcff.webp"
+            },
+            {
+                "Username": "saiarunimamenda@gmail.com",
+                "Name": "Arunima Menda",
+                "Branch": "Metallurgical and Materials Engineering",
+                "Domain": "Documentation",
+                "InstagramID": "arunima_m17",
+                "LinkedINID": "www.linkedin.com/in/arunimamenda",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/picture_-_Arunima_1_ljoef6.webp"
+            },
+            {
+                "Username": "azharansari.surajpur@gmail.com",
+                "Name": "Azhar Ansari",
+                "Branch": "Electronics and Communication Engineering",
+                "Domain": "Makerspace",
+                "InstagramID": "https://www.instagram.com/roser_01?igsh=MXV3NGFwaGJqODJxbw==",
+                "LinkedINID": "https://www.linkedin.com/in/md-azhar-ansari-20b585232/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885716/c5gug5rzklcqjd9qzw7u_rdqj5w.webp"
+            },
+            {
+                "Username": "darshankarn999@gmail.com",
+                "Name": "Darshan Kumar ",
+                "Branch": "Electrical Engineering",
+                "Domain": "EM",
+                "InstagramID": "https://www.instagram.com/karn_darsh/?hl=en",
+                "LinkedINID": "https://www.linkedin.com/in/darshan-karn/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1200,h_2013/v1741885721/y8buejpfjkgn1skua0bj_nfsda5.webp"
+            },
+            {
+                "Username": "gouravbanik2018@gmail.com",
+                "Name": "Gourav Banik ",
+                "Branch": "Electronics and Communication Engineering",
+                "Domain": "EM",
+                "InstagramID": "https://www.instagram.com/gd_is_here_?igsh=MTVvMHF2Z2YxN2RsdQ==",
+                "LinkedINID": "https://www.linkedin.com/in/gourav-banik-a92225201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885722/IMG_20250107_193159_20250107_213457_-_Gourav_Banik_1_kvn3q0.webp"
+            },
+            {
+                "Username": "manishasingh791791@gmail.com",
+                "Name": "Manisha Singh",
+                "Branch": "Information Technology",
+                "Domain": "Technical",
+                "InstagramID": "https://www.instagram.com/manisha_79122",
+                "LinkedINID": "www.linkedin.com/in/manisha-singh-15a63a232",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/mvjmldxmkf2ximmikw4j_zilozr.webp"
+            },
+            {
+                "Username": "mousamdas2003@gmail.com",
+                "Name": "Mousam Das",
+                "Branch": "Computer Science & Engineering",
+                "Domain": "EM",
+                "InstagramID": "justt.mousam",
+                "LinkedINID": "https://www.linkedin.com/in/mousamdas07/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1500,h_2000/v1741885723/klewhhvrlgnqc9pr56sh_qn05rz.webp"
+            },
+            {
+                "Username": "piyush.pb.bisen@gmail.com",
+                "Name": "Piyush Bisen",
+                "Branch": "Metallurgical and Materials Engineering",
+                "Domain": "PR",
+                "InstagramID": "https://www.instagram.com/im.pb/",
+                "LinkedINID": "https://www.linkedin.com/in/piyush-bisen-pb/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/de8azgpizihcfrs6hflv_otimgk.webp"
+            },
+            {
+                "Username": "piyushrakesh2002@gmail.com",
+                "Name": "Piyush kumar rakesh ",
+                "Branch": "Electrical Engineering",
+                "Domain": "Design",
+                "InstagramID": "piyush_rakesh_16",
+                "LinkedINID": "https://www.linkedin.com/in/piyush-kumar-rakesh-68a776232/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1741885717/rcunm0p0dbyyoicem1ae_bvyxci.webp"
+            },
+            {
+                "Username": "itssaurabhofficial@gmail.com",
+                "Name": "Saurabh sachdeva",
+                "Branch": "Electrical Engineering",
+                "Domain": "PR",
+                "InstagramID": "https://www.instagram.com/_saurabh.sachdeva?igsh=MW1zZDJwc2l1cmJ4aA%3D%3D&utm_source=qr",
+                "LinkedINID": "http://linkedin.com/in/saurabh-sachdeva-26695b230",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1747,h_2615,x_738,y_754/v1741885724/tqxjggrndnsokyh5ncbq_npilz1.webp"
+            },
+            {
+                "Username": "sushmitakurella@gmail.com",
+                "Name": "Sushmita Kurella ",
+                "Branch": "Mining Engineering",
+                "Domain": "Documentation",
+                "InstagramID": "sushmita_kurella",
+                "LinkedINID": "https://www.linkedin.com/in/kurellasushmita/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/t_mousam das/v1741916808/htg9r9sk1x1iz3oodbsz_u9hc6v.webp"
+            }
+        ],
+        "coreCoordinators": [
+            {
+                "name": "Aarti Tandan ",
+                "domain": "EM",
+                "linkedin": "Yes",
+                "insta": "__aarti.09__"
+            },
+            {
+                "name": "ABHISHEK KUMAR PANDEY",
+                "domain": "Documentation",
+                "linkedin": "https://www.linkedin.com/in/abhishek-kumar-pandey-0a9313258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "_.epsilon_019_._"
+            },
+            {
+                "name": "Aishwarya Sinha",
+                "domain": "PR",
+                "linkedin": "https://www.linkedin.com/in/aishwarya-sinha-78a989251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/aishwaryysinh._18?igsh=MXM4ZHl1ajdwem1veA=="
+            },
+            {
+                "name": "Akshay Mairal ",
+                "domain": "Documentation",
+                "linkedin": "https://www.linkedin.com/in/akshay-mairal-20b001257",
+                "insta": "https://www.instagram.com/akshaymairal998?igsh=anB0NWhxYmF2aXAz"
+            },
+            {
+                "name": "Ankush Dhobi ",
+                "domain": "Social Media",
+                "linkedin": "https://www.linkedin.com/in/ankush-dhobi-8b352024b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/dhobiankush7?igsh=bm80MXdpYWRsaXBl"
+            },
+            {
+                "name": "Anshika Mehra ",
+                "domain": "PR",
+                "linkedin": "https://www.linkedin.com/in/anshika-mehra-778a66279/",
+                "insta": "unstable__proton"
+            },
+            {
+                "name": "Devesh Kashyap",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/devesh-kashyap-4a78532ab",
+                "insta": "https://www.instagram.com/dev_0320?igsh=MTh1eGp5MzRkNG50eQ=="
+            },
+            {
+                "name": "Himanshu ",
+                "domain": "Spons",
+                "linkedin": null,
+                "insta": "himanshu00yadav"
+            },
+            {
+                "name": "HINESH SINGH THAKUR",
+                "domain": "EM",
+                "linkedin": "linkedin.com/in/hinesh-singh-thakur-48a1a5258",
+                "insta": "_hinesh_0368"
+            },
+            {
+                "name": "Jagriti Kumari",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/jagriti-kumari-1a4a51293",
+                "insta": "https://www.instagram.com/jagritikumari123?igsh=MWp3d2xrd3FuYXltbA=="
+            },
+            {
+                "name": "Jagriti Singh Thakur ",
+                "domain": "PR",
+                "linkedin": "https://www.linkedin.com/in/jagriti-singh-thakur-8366b3252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": null
+            },
+            {
+                "name": "kanhaiya kumar",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/kanhaiya-kumar-28bb2b21b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/kanhaiyakumar1725?igsh=MW9qYXA4OWdmMXhjcA=="
+            },
+            {
+                "name": "Lekhram Patel ",
+                "domain": "EM",
+                "linkedin": null,
+                "insta": null
+            },
+            {
+                "name": "Mohammad Raza Memon",
+                "domain": "Documentation",
+                "linkedin": "https://www.linkedin.com/in/mohammad-raza-memon-raza/",
+                "insta": "alright.raza"
+            },
+            {
+                "name": "Nikita Kumari",
+                "domain": "Documentation",
+                "linkedin": null,
+                "insta": "simplybeing_nik"
+            },
+            {
+                "name": "Onkar Gupta",
+                "domain": "Technical",
+                "linkedin": "https://www.linkedin.com/in/onkar-gupta-6398ba264",
+                "insta": "https://www.instagram.com/__rakno__"
+            },
+            {
+                "name": "Payal Sahu ",
+                "domain": "EM",
+                "linkedin": "www.linkedin.com/in/payalsahu1",
+                "insta": null
+            },
+            {
+                "name": "Priyanshu Choudhary ",
+                "domain": "Technical",
+                "linkedin": "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit",
+                "insta": "https://www.instagram.com/priyanshu_911official/"
+            },
+            {
+                "name": "Rahul Yadav",
+                "domain": "Social Media",
+                "linkedin": "https://www.linkedin.com/in/rahul-yadav-nitrr",
+                "insta": "therahul2004"
+            },
+            {
+                "name": "Riddhiraj Bidyabhusan",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/riddhiraj-bidyabhusan-740256262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/riddhirajbidyabhusan?igsh=MW1zN2JyeXY4NDlwZQ=="
+            },
+            {
+                "name": "Shikhar Gupta",
+                "domain": "EM",
+                "linkedin": "shikhar-gupta-nitrr",
+                "insta": "guptashikhar600"
+            },
+            {
+                "name": "Shreyansh Patel",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/shreyansh-patel-43153a259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/shreyansh00719?igsh=enk3bW9sYzBpZXQw"
+            },
+            {
+                "name": "Sushant Jha",
+                "domain": "Documentation",
+                "linkedin": "https://www.linkedin.com/in/sushant-kumar-jha-bb84b228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/skj_018?utm_source=qr&igsh=MTY4ZXpkNnZrdnl5Yg=="
+            },
+            {
+                "name": "Swarnava Dey",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/swarnavadey814",
+                "insta": null
+            },
+            {
+                "name": "Swatantra Mohanty ",
+                "domain": "PR",
+                "linkedin": "https://www.linkedin.com/in/swatantra-mohanty-240498297",
+                "insta": "https://www.instagram.com/swattyz2or?igsh=MXBicmE4b2M3NTRpYw=="
+            },
+            {
+                "name": "Tamrapanni Biswal",
+                "domain": "Spons",
+                "linkedin": "www.linkedin.com/in/tamrapanni-biswal-a3075a26b",
+                "insta": "tina_b2107"
+            },
+            {
+                "name": "Tanush Patel ",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/tanush-patel-277260251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/tanush_ar_p?igsh=Z2RxcnZnNnV3azc5"
+            },
+            {
+                "name": "Tanushi",
+                "domain": "Spons",
+                "linkedin": "https://www.linkedin.com/in/tanushi-dubey-8653b4213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "insta": "\u2014\u2014"
+            },
+            {
+                "name": "Toy Bhadra",
+                "domain": "Video Editing",
+                "linkedin": null,
+                "insta": null
+            },
+            {
+                "name": "Vaibhav Singh",
+                "domain": "EM",
+                "linkedin": "https://www.linkedin.com/in/vaibhav-singh-86b0b1290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/vaibbhavsingh2028?igsh=MTJ2c3ZnOWR0bWExZg=="
+            },
+            {
+                "name": "Valendra Dangi",
+                "domain": "Documentation",
+                "linkedin": "https://www.linkedin.com/in/valendra-dangi/",
+                "insta": "https://www.instagram.com/valendra_dangi/"
+            },
+            {
+                "name": "Vidhi Lahare",
+                "domain": "Social Media",
+                "linkedin": null,
+                "insta": "vidhividx"
+            }
+        ],
+        "executives": [
+            {
+                "EVENT MANAGEMENT": [
+                    {
+                        "name": "AARYANSH DWIVEDI",
+                        "year": "2"
+                    },
+                    {
+                        "name": "ANUSHKA MISHRA",
+                        "year": "2"
+                    },
+                    {
+                        "name": "HETARTH SACHDEVA",
+                        "year": "2"
+                    },
+                    {
+                        "name": "MANISH AGRAWAL",
+                        "year": "2"
+                    },
+                    {
+                        "name": "MOHD SAQLAIN KHAN",
+                        "year": "2"
+                    },
+                    {
+                        "name": "NEHA SONKAR",
+                        "year": "2"
+                    },
+                    {
+                        "name": "PREMANSHU SAHU",
+                        "year": "2"
+                    },
+                    {
+                        "name": "PRIYANKA SAHU",
+                        "year": "2"
+                    },
+                    {
+                        "name": "PRIYANKA UPADHYAY",
+                        "year": "2"
+                    },
+                    {
+                        "name": "RISHABH BHATI",
+                        "year": "2"
+                    },
+                    {
+                        "name": "SANJIDA KHATUN",
+                        "year": "2"
+                    },
+                    {
+                        "name": "VISHNU DIXIT",
+                        "year": "2"
+                    }
+                ]
+            },
+            {
+                "PR": [
+                    {
+                        "name": "ANSHIKA PANDEY ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "DEEP MOGAL ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "KASHISH AGRAWAL",
+                        "year": "2"
+                    },
+                    {
+                        "name": "MAHIR MITTAL",
+                        "year": "2"
+                    },
+                    {
+                        "name": "MOKSHADA BHATT ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "PRIYA OJHA",
+                        "year": "2"
+                    },
+                    {
+                        "name": "SHIVANG BARNWAL ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "SIDDHARTH PHATAK",
+                        "year": "2"
+                    },
+                    {
+                        "name": "SUBHANSHU PADHI ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "VANSHIKA JAISWAL",
+                        "year": "2"
+                    },
+                    {
+                        "name": "YASHASVI DEWANGAN",
+                        "year": "2"
+                    }
+                ]
+            },
+            {
+                "Makerspace": [
+                    {
+                        "name": "Aman Kumar Sharma",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Aniruddha Tiwari",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Anmol Kumar Agrawal",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Anshul Prasad",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Arthav",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Bonthu Meghana",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Dani Huto",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Durga Prasad",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Harshita Kurre",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Kunwar Kaushlendra Pratap Singh",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Kunwar Singh",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Neeraj Verma",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Nidhi Sahu",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Nitesh Kumar",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Prashant Shukla",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Ravi Verma",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Rishabh Ranjan Jha",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Rishi Prajapati",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Satwik",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Shikhar Kashyap",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Shivam Garg",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Sundram Kumar Rai",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Yash Khare",
+                        "year": "2"
+                    }
+                ]
+            },
+            {
+                "video editing": [
+                    {
+                        "name": "ANURAG GADHWAL ",
+                        "year": "2"
+                    },
+                    {
+                        "name": "ARPITA HIRA",
+                        "year": "2"
+                    },
+                    {
+                        "name": "ARYAN GHOSH",
+                        "year": "2"
+                    },
+                    {
+                        "name": "NISHANT DIWATE ",
+                        "year": "2"
+                    }
+                ]
+            },
+            {
+                "Documentation": [
+                    {
+                        "name": "Akshata Bakre",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Aryan Singh",
+                        "year": "2"
+                    },
+                    {
+                        "name": "JAYESH SHARMA",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Nipun Modi",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Prakarsh",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Rahul Wagh",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Satyam Tiwari",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Shashank Singh Rajput",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Shreya Sarangi",
+                        "year": "2"
+                    }
+                ]
+            },
+            {
+                "Design": [
+                    {
+                        "name": "Aaisha Bhura",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Aastha Kashyap",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Manash Chandak",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Manash Chandak",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Mansi Behera",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Nooka Rahul",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Pranjal Kumar Pandey",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Rimsha Ali",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Soha Ghodeswar",
+                        "year": "2"
+                    },
+                    {
+                        "name": "Tanish Biswas",
+                        "year": "2"
+                    }
+                ]
+            }
+        ]
+    }
+ }
