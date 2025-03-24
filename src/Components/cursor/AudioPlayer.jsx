@@ -72,9 +72,9 @@ const AudioPlayer = () => {
           }}
         >
           {isPlaying ? (
-            <FontAwesomeIcon color="#d19f3d" icon={faVolumeUp} />
+            <FontAwesomeIcon color="#00e1bf" icon={faVolumeUp} />
           ) : (
-            <FontAwesomeIcon color="#d19f3d" icon={faVolumeMute} />
+            <FontAwesomeIcon color="#00e1bf" icon={faVolumeMute} />
           )}
         </button>
       </div>
