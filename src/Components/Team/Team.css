@@ -50,8 +50,8 @@
 /* card css  */
 /* card css - revised positioning */
 .container .card {
-  width: 280px;
-  height: 390px;
+  width: 400px;
+  height: 450px;
   background: linear-gradient(135deg, #0f1729 0%, #1e0f33 100%);
   border-radius: 14px;
   text-align: center;
@@ -183,6 +183,34 @@
   opacity: 0;
 }
 
+.container .card .content p {
+  font-size: 1rem;
+  color: #a5b4fc;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: all 0.75s;
+}
+
+.container .card .content p span:nth-child(1) {
+  /* Name - Largest and boldest */
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #c7d2fe;
+}
+
+.container .card .content p span:nth-child(2) {
+  /* Domain - Medium size, slightly less bold */
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #a5b4fc;
+}
+
+.container .card .content p span:nth-child(3) {
+  /* Branch - Smallest, lighter weight */
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #8a97db;
+}
 
 /* NameCard css - Space Theme */
 .nameCard {

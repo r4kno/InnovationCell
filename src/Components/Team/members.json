@@ -30,7 +30,7 @@
             },
             {
                 "Username": "sampadspradhan@gmail.com",
-                "Name": "Sampad Shubhadarshi Pradhan",
+                "Name": "Sampad Pradhan",
                 "Branch": "Mining Engineering",
                 "Domain": null,
                 "InstagramID": "@_sampadspradhan_",
@@ -39,18 +39,51 @@
             }
         ],
         "techteam" : [
+        {
+            "Name": "Prince Tripathi",
+            "Year": "4th",
+            "Domain": "Contribution : Guidance",
+            "InstagramID": "https://www.instagram.com/princetripathie07/",
+            "LinkedINID": "https://www.linkedin.com/in/prince-tripathi-96920b224/",
+            "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742924189/myPic_-_6085_Prince_Tripathi_myrgmu.webp"
+        },
+        {
+            "Name": "Azhar Ansari",
+            "Year": "4th",
+            "Domain": "Contribution : Guidance",
+            "InstagramID": "https://www.instagram.com/roser_01/",
+            "LinkedINID": "https://www.linkedin.com/in/md-azhar-ansari-20b585232/+[@[Li+[@[Instagram Profile [@[LinkedIn Profile Link]]",
+            "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1741885716/c5gug5rzklcqjd9qzw7u_rdqj5w.webp"
+        },
+        {
+            "Name": "Pranjal Naman",
+            "Year": "4th",
+            "Domain": "Contribution : Guidance",
+            "GitHub": "https://github.com/Pranjal1923",
+            "InstagramID": "https://www.instagram.com/pranjal_naman_/",
+            "LinkedINID": "https://www.linkedin.com/in/pranjal-naman-6b141329a/",
+            "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,ar_3:4/v1742924190/profile_-_Pranjal_Naman_jlgq02.webp"
+        },
          {
              "Name": "Onkar Gupta",
              "Year": "3rd",
-             "Domain": "Development",
+             "Domain": " Contribution : Landing and Intro Page",
              "InstagramID": "https://www.instagram.com/__rakno__",
              "LinkedINID": "https://www.linkedin.com/in/onkar-gupta-6398ba264",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_3000,h_3000,ar_1:1,g_auto/v1742792335/sh35xsjzwujzgivzbsre_s6ldzh.webp"
          },
          {
+            "Name": "Lavkesh Meena",
+            "Year": "3rd",
+            "Domain": " Contribution : Landing and Intro Page",
+            "InstagramID": "https://www.instagram.com/l.a.v.k.e.s.h._01",
+            "LinkedINID": "https://www.linkedin.com/in/lavkesh-meena/",
+            "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_900,h_1057,x_0,y_0/v1742925164/27ec6265-c7c4-4b88-a7af-5d15a6b3f97f_y3thln.webp"
+        },
+         {
              "Name": "Godson S. Philip",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : About Us, Events Sections",
              "InstagramID": "https://www.instagram.com/godsonsphilip",
              "LinkedINID": "https://www.linkedin.com/in/godsonsphilip",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/xofpyfunplqolgsfnoic_lhrnyi.webp"
@@ -58,7 +91,7 @@
          {
              "Name": "Prince Gupta",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : MakerSpace Page",
              "InstagramID": "https://www.instagram.com/princegupta.in",
              "LinkedINID": "https://www.linkedin.com/in/princegupta-in",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/bvztk67blemghbygmhsl_dodi6u.webp"
@@ -66,7 +99,7 @@
          {
              "Name": "Utkarsh Tiwari",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : Footer Section",
              "InstagramID": "https://www.instagram.com/utkarsh__tiwari1/",
              "LinkedINID": "https://www.linkedin.com/in/utkarsh-tiwari1/",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/ae9wzs1heiyv8jr3y0vg_mcidpr.webp"
@@ -74,7 +107,7 @@
          {
              "Name": "Pashmeen Kaur",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : MakerSpace Page",
              "InstagramID": "-",
              "LinkedINID": "-",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/xe4nq2fyjodhtrsxv3si_wasvpr.webp"
@@ -82,7 +115,7 @@
          {
              "Name": "Leora Saharia",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : FAQ Section",
              "InstagramID": "https://www.instagram.com/none",
              "LinkedINID": "https://www.linkedin.com/in/leora-saharia",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792333/j8bgstuwvzfewg6uybru_qr609l.webp"
@@ -90,7 +123,7 @@
          {
              "Name": "Gajendra Bhoi",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : Contact Us Section",
              "InstagramID": "https://www.instagram.com/gajendra1_0",
              "LinkedINID": "https://www.linkedin.com/in/gajendra-bhoi-356aa8269",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_pad,b_gen_fill,w_3000,h_3000,ar_1:1/v1742792332/crv4djkde6c60byojjbl_ejkaxj.webp"
@@ -98,7 +131,7 @@
          {
              "Name": "Tejas Surya",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : Teams Page and Tech Page",
              "InstagramID": "-",
              "LinkedINID": "https://www.linkedin.com/in/tejas-surya-174377295/",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792332/x5leinfzy6dor93c3ezy_gdeyud.webp"
@@ -106,7 +139,7 @@
          {
              "Name": "Rishabh Chandrakar",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : MakerSpace Page",
              "InstagramID": "https://www.instagram.com/rishabh.chandrakar_/",
              "LinkedINID": "https://www.linkedin.com/in/rishabh-chandrakar-09a13b289/",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792331/hlhtbszm4f4dmhx0zpu1_gl4ybc.webp"
@@ -114,11 +147,11 @@
          {
              "Name": "Arjun Bhadauriya",
              "Year": "2nd",
-             "Domain": "Development",
+             "Domain": " Contribution : About Us, Events Section",
              "InstagramID": "https://www.instagram.com/arjunbhadauriya50",
              "LinkedINID": "https://www.linkedin.com/in/arjunthakur-nit-5337462a8",
              "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742792334/xenvjbcsbezgvv165zuc_vysp9f.webp"
-         }        
+         }     
         ],
         "fourthYear": [
             {
@@ -183,6 +216,24 @@
                 "InstagramID": "justt.mousam",
                 "LinkedINID": "https://www.linkedin.com/in/mousamdas07/",
                 "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,w_1500,h_2000/v1741885723/klewhhvrlgnqc9pr56sh_qn05rz.webp"
+            },
+            {
+                "Name": "Prince Tripathi",
+                "Year": "4th",
+                "Branch" : "Electronics and Communication Engineering",
+                "Domain": "Technical",
+                "InstagramID": "https://www.instagram.com/princetripathie07/",
+                "LinkedINID": "https://www.linkedin.com/in/prince-tripathi-96920b224/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/v1742924189/myPic_-_6085_Prince_Tripathi_myrgmu.webp"
+            },
+            {
+                "Name": "Pranjal Naman",
+                "Year": "4th",
+                "Branch" : "Information Technology",
+                "Domain": "Technical",
+                "InstagramID": "https://www.instagram.com/pranjal_naman_/",
+                "LinkedINID": "https://www.linkedin.com/in/pranjal-naman-6b141329a/",
+                "picture": "https://res.cloudinary.com/delcrf6zs/image/upload/c_crop,ar_3:4/v1742924190/profile_-_Pranjal_Naman_jlgq02.webp"
             },
             {
                 "Username": "piyush.pb.bisen@gmail.com",
@@ -365,6 +416,12 @@
                 "domain": "EM",
                 "linkedin": "https://www.linkedin.com/in/swarnavadey814",
                 "insta": null
+            },
+            {
+                "name" : "Lavkesh Meena",
+                "domain" : "Technical",
+                "linkedin" : "https://www.linkedin.com/in/lavkesh-meena/",
+                "insta" : "https://www.instagram.com/l.a.v.k.e.s.h._01"
             },
             {
                 "name": "Swatantra Mohanty ",
