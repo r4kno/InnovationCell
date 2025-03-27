@@ -1,26 +1,38 @@
 [
     {
         "id": 1,
-        "logo": "sponsImg/company-logo1.png"
-    },
-    {
+        "name": "Quantum Dynamics",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+        
+      },
+      {
         "id": 2,
-        "logo": "sponsImg/company-logo2.png"
-    },
-    {
+        "name": "NebulaTech",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+        
+      },
+      {
         "id": 3,
-        "logo": "sponsImg/company-logo3.png"
-    },
-    {
+        "name": "GalaxySystems",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+        
+      },
+      {
         "id": 4,
-        "logo": "sponsImg/company-logo1.png"
-    },
-    {
+        "name": "OrbitAI",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+        
+      },
+      {
         "id": 5,
-        "logo": "sponsImg/company-logo3.png"
-    },
-    {
+        "name": "StarLink",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+       
+      },
+      {
         "id": 6,
-        "logo": "sponsImg/company-logo2.png"
-    }
+        "name": "CosmicInnovations",
+        "logo": "/lovable-uploads/e973efec-0f5d-4891-b7e4-745b87a97a96.png"
+        
+      }
 ]

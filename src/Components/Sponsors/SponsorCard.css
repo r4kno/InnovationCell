@@ -1,0 +1,107 @@
+.sponsor-card {
+    height: 100%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .sponsor-card-inner {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(145deg, rgba(59, 37, 114, 0.7), rgba(94, 40, 131, 0.3));
+  }
+  
+  .sponsor-card-inner:hover {
+    transform: rotateY(5deg) rotateX(5deg) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.1);
+  }
+  
+  .card-content {
+    padding: 1px;
+  }
+  
+  .logo-container {
+    position: relative;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .logo-wrapper {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 32px;
+  }
+  
+  .sponsor-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+  }
+  
+  .sponsor-card-inner:hover .sponsor-logo {
+    transform: scale(1.1);
+  }
+  
+  .card-body {
+    padding: 24px;
+  }
+  
+  .sponsor-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .sponsor-card-inner:hover .sponsor-name {
+    color: #4fc3f7;
+  }
+  
+  .card-footer {
+    padding: 0 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sponsor-id {
+    font-size: 0.75rem;
+    color: #4fc3f7;
+  }
+  
+  .learn-more {
+    font-size: 0.875rem;
+    color: #4fc3f7;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .learn-more:hover {
+    color: #81d4fa;
+  }
+  
+  .arrow-icon {
+    height: 16px;
+    width: 16px;
+  }
