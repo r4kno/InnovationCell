@@ -11,6 +11,7 @@ import Footer from "./Components/Footer/Footer";
 import Snitch from "./Components/snitch/Snitch";
 import Cursor from "./Components/cursor/Cursor";
 import IntroVideo from './Components/IntroVideo/Introvideo';
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
   const contactUsRef = useRef(null); // Create a ref for the ContactUs component
@@ -67,6 +68,10 @@ function App() {
         <Accordian />
         <div id="contactusnav"></div>
         <Contact />
+        {/* <Sponsors></Sponsors>
+        <div id="spons">
+          <Sponsors></Sponsors>
+        </div> */}
         <Footer />
       </div>
     </>
