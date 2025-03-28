@@ -1,355 +1,118 @@
-.About-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 5rem;
-  margin: 2rem 2rem;
-  color: lightgray;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.About-content {
-  /* line-height: 2rem; */
-  width: 26rem;
-
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
-  font-family: frozen;
-
+body {
+  background-color: #0b0033;
+  color: #e0d4ff;
+  font-family: 'Orbitron', sans-serif;
 }
 
-.About-content:hover {
-  background-color: rgb(189, 148, 227);
-  opacity: 0.6;
-}
-
-.About-item-heading {
-  position: relative;
-  color: var(--green);
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  font-family: harry;
-}
-
-.About-item-heading::after {
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  transform: translateY(-50%);
-  content: "";
-  display: block;
-  /* background-color: var(--green); */
-  background-color: #c09848;
-  width: 3rem;
-  height: 2px;
-  border-radius: 1rem;
-  margin-left: 0.5rem;
-}
-
-.About-item-heading::before {
-  top: 50%;
-  left: 1rem;
-  transform: translateY(-50%);
-  position: absolute;
-  content: "";
-  display: block;
-  /* background-color: var(--green); */
-  background-color: #d19f3d;
-  width: 3rem;
-  height: 2px;
-  border-radius: 1rem;
-  margin-right: 0.5rem;
-}
-
-.About-item-main {
-  letter-spacing: 0.2px;
-}
-
-.About-item-heading {
-  font-family: magicI;
-  font-size: 2.4rem;
-}
-
-.About-imgs {
-  display: flex;
-  margin-top: -4.4rem;
-  /* border-top: 2px solid; */
-}
-
-.holder {
-  position: relative;
-}
-
-.owl {
-  position: absolute;
-  top: -4.8rem;
-  
-}
-
-/* Applies the swinging animation to the bulb images */
-@keyframes swing {
-
-  0%,
-  100% {
-    transform: rotate(5deg);
-  }
-
-  50% {
-    transform: rotate(-5deg);
-  }
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-    /* Start with opacity 0 (fully transparent) */
-  }
-
-  50% {
-    opacity: 1;
-    /* End with opacity 1 (fully visible) */
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-.About-img img {
-  animation: swing 2s ease-in-out infinite;
-  transform-origin: top;
-}
-
-.About-item-main {
-  margin-top: 1rem;
-  line-height: 1.5rem;
-  background-color: rgba(7, 8, 24, 0.3);
-  padding: 2rem;
-  border-radius: 10px;
-}
-
-@media (max-width: 859px) {
-  .About-item-main {
-    text-align: center;
-  }
-
-  .About-pic {
-    transform: translateY(2rem);
-  }
-
-  .About-item {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 620px) {
-  .About-content {
-    width: 100%;
-    text-align: justify;
-  }
-
-  .About-main-container {
-    margin: 0 3rem;
-  }
-
-  .About-container {
-    margin: 2rem 0rem;
-    gap: 0;
-  }
-
-  .About-pic {
-    scale: 0.9;
-    /* transform: translateY(-2rem); */
-  }
-
-  .About-item {
-    font-size: 1.4rem;
-  }
-
-  .About-item-heading {
-    font-size: 2rem;
-    font-family: frozen;
-  }
-
-  .About-item-heading::after {
-    right: 3.2rem;
-  }
-
-  .About-item-heading::before {
-    left: 3.2rem;
-  }
-}
-
-@media (max-width: 550px) {
-  .About-content {
-    width: 100%;
-  }
-
-  .About-main-container {
-    margin: 0 1rem;
-  }
-
-  .About-item {
-    font-size: 1.2rem;
-  }
-
-  .About-item-heading {
-    font-size: 1.8rem;
-  }
-
-  .About-item-heading::after {
-    right: 2rem;
-  }
-
-  .About-item-heading::before {
-    left: 2rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .About-item-heading::after {
-    right: 1.5rem;
-  }
-
-  .About-item-heading::before {
-    left: 1.5rem;
-  }
-}
-
-/* .About-content {
-  position: relative;
-  background-image: url("../../Assets/images/icellimage1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-  font-size: 16px;
-  transition: 0.5s ease-in-out;
-} */
-
-/* .About-content::after {
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+.acc-main {
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-} */
-
-/* .About-content:hover::after {
-  content: "The Innovation Cell at NIT Raipur is dedicated to fostering a culture of innovation, creativity, entrepreneurship, and technology among students. It aims to empower the next generation of visionaries by providing the necessary tools, resources, and opportunities to transform their ideas into reality.";
-
-
-
-  
-} */
-
-
-.highlighted-objectives {
-  /* background: rgba(255, 255, 255, 0.2); */
-  padding: 10px;
-  border-left: 5px solid rgb(222, 210, 80);
-  font-size: 1.1rem;
-  font-weight: bold;
 }
 
-.teamHeading h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
-}
-
-.teamHeading h1:hover {
-  transform: translateY(-10px) scale(1.1);
-  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-
-/* @keyframes colorCycle {
-  0% { color: #d20de4; }   
-  25% { color: #3b7f9c; }  
-  50% { color: #3357ff; }  
-  75% { color: #ff33a6; }  
-  100% { color: #8451b1; } 
-} */
-
-.highlighted-objectives {
-  background: rgba(0, 0, 0, 0.4); 
-  padding: 15px;
-  border-radius: 8px;
-  color: white;
-  font-size: 1rem;
-  line-height: 1.5;
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
-}
-
-.highlighted-objectives strong {
-  transition: color 0.5s ease-in-out;
-}
-
-.highlighted-objectives:hover {
-  background: rgba(0, 0, 0, 0.6);
-  animation: colorCycle 3s infinite linear;
-}
-
-.highlighted-objectives:hover strong {
-  animation: colorCycle 3s infinite linear;
-}
-@keyframes backgroundZoom {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05); /* Slight zoom-in */
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.About-content {
+.acc-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 1rem; /* Reduced gap between topics */
   position: relative;
-  padding: 20px;
-  border-radius: 10px;
-  color: rgb(204, 185, 185);
+}
+
+.FAQ-heading {
+  margin-top: 4rem;
+  text-align: center;
+  color: #a277ff;
+  text-shadow: 0 0 15px #c499ff;
+}
+
+.wrapper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   overflow: hidden;
 }
 
-.About-content::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.container {
+  padding: 0 20px;
+}
+
+.container p {
+  color: #e0d4ff;
+}
+
+.wrapper .question-container {
   width: 100%;
-  height: 100%;
-  background-image: inherit; /* Ensures the background is inherited */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  animation: backgroundZoom 4s infinite ease-in-out;
-  z-index: 0;
-  filter: brightness(0.5); /* Keeps it smooth */
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  background: #180542; /* Solid color instead of gradient */
+  border: none;
+  color: #e0d4ff;
+  box-shadow: 0 0 8px rgba(162, 119, 255, 0.6);
+  border-radius: 5px;
+  transition: background 0.5s ease-in-out;
 }
 
-.About-item-main {
-  position: relative;
-  z-index: 1; /* Keeps text above the background */
-  font-family: "Poppins", sans-serif;
+.question-container.active {
+  background: #7526e1;
+  box-shadow: 0 0 15px rgba(162, 119, 255, 1);
 }
 
+.wrapper .question-container:hover {
+  background: #5a1aa1;
+  transition-delay: 0.3s; /* Added hover delay */
+}
 
+.wrapper .arrow {
+  color: #a277ff;
+  font-size: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
 
+.arrow.active {
+  transform: rotate(180deg);
+  color: #7e77ff;
+}
+
+.wrapper .answer-container {
+  padding: 0 1rem;
+  transition: height 0.4s ease-in-out; /* Reduced FAQ opening delay */
+}
+
+.wrapper .answer-content {
+  padding: 0.8rem 0;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  color: #e0d4ff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.answer-content:hover {
+  color: #ce9cfa;
+}
+
+.question-content:hover {
+  color: #9977ff;
+}
+
+@media screen and (max-width: 1024px) {
+  .acc-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .acc-container {
+    padding: 20px 12px;
+  }
+}
